@@ -1,0 +1,26 @@
+2026-10-31T00:28:02.198702Z CONSUMER_STARTED queue=TaskEventsQueue broker=localhost:7676 data=C:\Users\zsr20\Study\2026\Semester 2\Distributed and Mobile System\Assessment3\consumer\data\notifications
+2026-10-31T00:28:02.485473200Z BROKER_CONNECTED acknowledgement=SESSION_TRANSACTED
+2026-10-31T00:28:02.580524600Z RECEIVED eventId=c6ddbade-c179-49a2-877c-4cb3a53af979 redelivered=false brokerDeliveryCount=1 persistedAttempts=1
+2026-10-31T00:28:02.676869900Z NOTIFICATION_CREATED eventId=c6ddbade-c179-49a2-877c-4cb3a53af979 Review needed: task #2 "Inspect science building 1793405722392" in project #2 submitted by worker 2. Entrance checked using mobile workflow contract.
+2026-10-31T00:28:02.677870300Z ACK_COMMIT eventId=c6ddbade-c179-49a2-877c-4cb3a53af979 notificationsCreated=1
+2026-10-31T00:28:02.922018600Z RECEIVED eventId=cf07dafe-6715-404c-a6e6-9e1abb3284d3 redelivered=false brokerDeliveryCount=1 persistedAttempts=1
+2026-10-31T00:28:02.977420800Z NOTIFICATION_CREATED eventId=cf07dafe-6715-404c-a6e6-9e1abb3284d3 Review needed: task #2 "Inspect science building 1793405722392" in project #2 submitted by worker 2. Rework complete.
+2026-10-31T00:28:02.978418100Z ACK_COMMIT eventId=cf07dafe-6715-404c-a6e6-9e1abb3284d3 notificationsCreated=1
+2026-10-31T00:28:03.031059200Z RECEIVED eventId=c52546be-09c2-4f01-87fc-23181e675551 redelivered=false brokerDeliveryCount=1 persistedAttempts=1
+2026-10-31T00:28:03.088630200Z NOTIFICATION_CREATED eventId=c52546be-09c2-4f01-87fc-23181e675551 Review needed: task #3 "Inspect science building 1793405775609" in project #4 submitted by worker 2. Entrance checked using mobile workflow contract.
+2026-10-31T00:28:03.088630200Z ACK_COMMIT eventId=c52546be-09c2-4f01-87fc-23181e675551 notificationsCreated=1
+2026-10-31T00:28:03.145568200Z RECEIVED eventId=97b69261-5473-4d80-a666-c17f60816546 redelivered=false brokerDeliveryCount=1 persistedAttempts=1
+2026-10-31T00:28:03.200582900Z NOTIFICATION_CREATED eventId=97b69261-5473-4d80-a666-c17f60816546 Review needed: task #3 "Inspect science building 1793405775609" in project #4 submitted by worker 2. Rework complete.
+2026-10-31T00:28:03.200582900Z ACK_COMMIT eventId=97b69261-5473-4d80-a666-c17f60816546 notificationsCreated=1
+2026-10-31T00:28:03.258485500Z RECEIVED eventId=657a9738-4a44-41e7-b7b1-5dc662a4d11c redelivered=false brokerDeliveryCount=1 persistedAttempts=1
+2026-10-31T00:28:03.316300900Z NOTIFICATION_CREATED eventId=657a9738-4a44-41e7-b7b1-5dc662a4d11c Review needed: task #5 "Inspect campus access 1793406040019" in project #8 submitted by worker 2. Entrance inspected. Access path is clear; captured through the web manual location fallback.
+2026-10-31T00:28:03.317311700Z ACK_COMMIT eventId=657a9738-4a44-41e7-b7b1-5dc662a4d11c notificationsCreated=1
+2026-10-31T00:28:03.374714600Z RECEIVED eventId=32b4ad9f-d081-4306-acb3-28042ff28b93 redelivered=false brokerDeliveryCount=1 persistedAttempts=1
+2026-10-31T00:28:03.430783600Z NOTIFICATION_CREATED eventId=32b4ad9f-d081-4306-acb3-28042ff28b93 Review needed: task #7 "Inspect campus access 1793406138615" in project #10 submitted by worker 2. Entrance inspected. Access path is clear; captured through the web manual location fallback.
+2026-10-31T00:28:03.430783600Z ACK_COMMIT eventId=32b4ad9f-d081-4306-acb3-28042ff28b93 notificationsCreated=1
+2026-10-31T00:28:03.487788500Z RECEIVED eventId=864cf141-9ade-4043-ba1b-92ef0a85a3d2 redelivered=false brokerDeliveryCount=1 persistedAttempts=1
+2026-10-31T00:28:03.551659300Z NOTIFICATION_CREATED eventId=864cf141-9ade-4043-ba1b-92ef0a85a3d2 Review needed: task #7 "Inspect campus access 1793406138615" in project #10 submitted by worker 2. Rework complete: access route and door operation checked again.
+2026-10-31T00:28:03.551659300Z ACK_COMMIT eventId=864cf141-9ade-4043-ba1b-92ef0a85a3d2 notificationsCreated=1
+2026-10-31T00:28:03.610568800Z RECEIVED eventId=b41f8874-19c9-420d-b903-15becc934111 redelivered=false brokerDeliveryCount=1 persistedAttempts=1
+2026-10-31T00:28:03.683846300Z NOTIFICATION_CREATED eventId=b41f8874-19c9-420d-b903-15becc934111 Review needed: task #6 "Android field evidence 1793406074989" in project #9 submitted by worker 2. Android emulator inspected site; entrance is clear and signage is intact.
+2026-10-31T00:28:03.683846300Z ACK_COMMIT eventId=b41f8874-19c9-420d-b903-15becc934111 notificationsCreated=1

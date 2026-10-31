@@ -1,0 +1,9 @@
+2026-10-31T00:21:52.310398700Z CONSUMER_STARTED queue=TaskEventsQueue broker=localhost:7676 data=C:\Users\zsr20\Study\2026\Semester 2\Distributed and Mobile System\.\Assessment3\consumer\data\live-broker-verification
+2026-10-31T00:21:52.584094800Z BROKER_CONNECTED acknowledgement=SESSION_TRANSACTED
+2026-10-31T00:21:52.897294100Z RECEIVED eventId=f72a62ce-c759-47b0-9708-faf8aa7524ee redelivered=false brokerDeliveryCount=1 persistedAttempts=3
+2026-10-31T00:21:53.009582600Z DUPLICATE_SUPPRESSED eventId=f72a62ce-c759-47b0-9708-faf8aa7524ee Review needed: task #4 "Inspect science building 1793406020116" in project #6 submitted by worker 2. Rework complete.
+2026-10-31T00:21:53.010597900Z ACK_COMMIT eventId=f72a62ce-c759-47b0-9708-faf8aa7524ee notificationsCreated=0
+2026-10-31T00:21:53.019700100Z CONSUMER_STOPPED acceptedDeliveries=1
+PERSISTED_NOTIFICATIONS count=1
+DELIVERY eventId=f72a62ce-c759-47b0-9708-faf8aa7524ee attempts=3 redeliveries=1 duplicates=1 outcome=DUPLICATE_SUPPRESSED
+NOTIFICATION eventId=f72a62ce-c759-47b0-9708-faf8aa7524ee Review needed: task #4 "Inspect science building 1793406020116" in project #6 submitted by worker 2. Rework complete.

@@ -1,0 +1,11 @@
+2026-10-31T00:23:58.533252400Z CONSUMER_STARTED queue=TaskEventsQueue broker=localhost:7676 data=C:\Users\zsr20\Study\2026\Semester 2\Distributed and Mobile System\.\Assessment3\consumer\data\android-gps-broker-verification
+2026-10-31T00:23:58.727328Z BROKER_CONNECTED acknowledgement=SESSION_TRANSACTED
+2026-10-31T00:23:58.828266200Z RECEIVED eventId=40be3c44-4963-4562-b35e-def2b911edfb redelivered=false brokerDeliveryCount=1 persistedAttempts=1
+2026-10-31T00:23:58.914917200Z RETRY_ROLLBACK eventId=40be3c44-4963-4562-b35e-def2b911edfb reason=Injected processing failure before database commit.
+2026-10-31T00:23:59.264903800Z RECEIVED eventId=40be3c44-4963-4562-b35e-def2b911edfb redelivered=true brokerDeliveryCount=2 persistedAttempts=2
+2026-10-31T00:23:59.321589700Z NOTIFICATION_CREATED eventId=40be3c44-4963-4562-b35e-def2b911edfb Review needed: task #8 "Android GPS evidence 1793406166292" in project #9 submitted by worker 2. Fresh device GPS captured on the Android14 emulator at the field site.
+2026-10-31T00:23:59.321589700Z ACK_COMMIT eventId=40be3c44-4963-4562-b35e-def2b911edfb notificationsCreated=1
+2026-10-31T00:23:59.327127600Z CONSUMER_STOPPED acceptedDeliveries=1
+PERSISTED_NOTIFICATIONS count=1
+DELIVERY eventId=40be3c44-4963-4562-b35e-def2b911edfb attempts=2 redeliveries=1 duplicates=0 outcome=STORED
+NOTIFICATION eventId=40be3c44-4963-4562-b35e-def2b911edfb Review needed: task #8 "Android GPS evidence 1793406166292" in project #9 submitted by worker 2. Fresh device GPS captured on the Android14 emulator at the field site.

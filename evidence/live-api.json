@@ -1,0 +1,108 @@
+{
+  "startedAt": "2026-10-31T00:20:18.974Z",
+  "base": "http://localhost:8080/comp713-a3/api/",
+  "checks": [
+    {
+      "name": "01 Payara health and real database",
+      "status": "PASS",
+      "durationMs": 224,
+      "response": {
+        "data": {
+          "status": "ok",
+          "database": "ok",
+          "application": "comp713-a3"
+        }
+      }
+    },
+    {
+      "name": "02 Unauthorized and invalid credentials",
+      "status": "PASS",
+      "durationMs": 329
+    },
+    {
+      "name": "03 Coordinator and two worker sessions",
+      "status": "PASS",
+      "durationMs": 305
+    },
+    {
+      "name": "04 Role enforcement",
+      "status": "PASS",
+      "durationMs": 42
+    },
+    {
+      "name": "05 Retained project CRUD and validation",
+      "status": "PASS",
+      "durationMs": 183
+    },
+    {
+      "name": "06 Assignment visible to correct worker",
+      "status": "PASS",
+      "durationMs": 154
+    },
+    {
+      "name": "07 Worker accepts; stale version gives 409",
+      "status": "PASS",
+      "durationMs": 96
+    },
+    {
+      "name": "08 Invalid location rolls back and malformed JSON rejected",
+      "status": "PASS",
+      "durationMs": 88
+    },
+    {
+      "name": "09 Real WebSocket push on worker submission",
+      "status": "PASS",
+      "durationMs": 160,
+      "event": "task.changed",
+      "latencyMs": 32.75819999999999
+    },
+    {
+      "name": "10 Coordinator requests rework; worker sees it",
+      "status": "PASS",
+      "durationMs": 69
+    },
+    {
+      "name": "11 Resubmit and coordinator approval",
+      "status": "PASS",
+      "durationMs": 76
+    },
+    {
+      "name": "12 WebSocket reconnection restores authoritative state",
+      "status": "PASS",
+      "durationMs": 52
+    },
+    {
+      "name": "13 Durable outbox published to OpenMQ",
+      "status": "PASS",
+      "durationMs": 5350,
+      "events": [
+        {
+          "eventId": "f72a62ce-c759-47b0-9708-faf8aa7524ee",
+          "published": true
+        },
+        {
+          "eventId": "d885424a-e78e-4e34-a6a8-d5c60d7f8e50",
+          "published": true
+        }
+      ]
+    },
+    {
+      "name": "14 Representative API response time",
+      "status": "PASS",
+      "durationMs": 1256,
+      "target": "warm task GET p95 <= 500ms",
+      "conditions": "localhost, one sequential client, 40 requests after warmup, JDK21/Payara6/H2",
+      "samples": 40,
+      "p95Ms": 39.30869999999959,
+      "minMs": 20.66280000000006,
+      "maxMs": 40.700700000000325
+    },
+    {
+      "name": "15 Logout revokes persisted session",
+      "status": "PASS",
+      "durationMs": 62
+    }
+  ],
+  "completedAt": "2026-10-31T00:20:27.462Z",
+  "status": "PASS"
+}

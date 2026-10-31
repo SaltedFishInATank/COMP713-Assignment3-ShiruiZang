@@ -1,0 +1,5 @@
+
+message                                                        command                  exit_code extraProperties
+-------                                                        -------                  --------- ---------------
+Command stop-domain was successfully initiated asynchronously. stop-domain AdminCommand SUCCESS   @{commandLog=System.O…
+

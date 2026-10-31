@@ -1,0 +1,12 @@
+{
+  "testedAt": "2026-10-31T13:21:54.2595497+13:00",
+  "broker": "localhost:7676",
+  "data": "C:\\Users\\zsr20\\Study\\2026\\Semester 2\\Distributed and Mobile System\\Assessment3\\consumer\\data\\live-broker-verification",
+  "eventId": "f72a62ce-c759-47b0-9708-faf8aa7524ee",
+  "retry": "passed",
+  "redelivery": "passed",
+  "acknowledgement": "passed",
+  "duplicateSuppression": "passed",
+  "persistence": "passed",
+  "count": "PERSISTED_NOTIFICATIONS count=1"
+}

@@ -1,0 +1,1412 @@
+{
+  "coordinator": {
+    "mainNavigations": [
+      {
+        "at": "2026-10-31T00:22:20.052Z",
+        "url": "http://localhost:8080/comp713-a3/"
+      }
+    ],
+    "api": [
+      {
+        "at": "2026-10-31T00:22:20.614Z",
+        "method": "POST",
+        "path": "api/auth/login",
+        "status": 401
+      },
+      {
+        "at": "2026-10-31T00:22:20.814Z",
+        "method": "POST",
+        "path": "api/auth/login",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:20.833Z",
+        "method": "GET",
+        "path": "api/auth/me",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:20.862Z",
+        "method": "GET",
+        "path": "api/users",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:20.910Z",
+        "method": "GET",
+        "path": "api/projects",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:20.948Z",
+        "method": "GET",
+        "path": "api/projects/8/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:20.949Z",
+        "method": "GET",
+        "path": "api/projects/9/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:20.950Z",
+        "method": "GET",
+        "path": "api/projects/6/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:20.957Z",
+        "method": "GET",
+        "path": "api/projects/2/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:20.960Z",
+        "method": "GET",
+        "path": "api/projects/4/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:20.969Z",
+        "method": "GET",
+        "path": "api/projects/1/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:21.091Z",
+        "method": "GET",
+        "path": "api/projects",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:21.120Z",
+        "method": "GET",
+        "path": "api/projects/2/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:21.121Z",
+        "method": "GET",
+        "path": "api/projects/4/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:21.123Z",
+        "method": "GET",
+        "path": "api/projects/9/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:21.126Z",
+        "method": "GET",
+        "path": "api/projects/6/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:21.126Z",
+        "method": "GET",
+        "path": "api/projects/8/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:21.149Z",
+        "method": "GET",
+        "path": "api/projects/1/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:21.999Z",
+        "method": "POST",
+        "path": "api/projects",
+        "status": 201
+      },
+      {
+        "at": "2026-10-31T00:22:22.039Z",
+        "method": "GET",
+        "path": "api/projects",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:22.070Z",
+        "method": "GET",
+        "path": "api/projects",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:22.106Z",
+        "method": "GET",
+        "path": "api/projects/10/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:22.113Z",
+        "method": "GET",
+        "path": "api/projects/8/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:22.119Z",
+        "method": "GET",
+        "path": "api/projects/9/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:22.144Z",
+        "method": "GET",
+        "path": "api/projects/6/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:22.148Z",
+        "method": "GET",
+        "path": "api/projects/2/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:22.160Z",
+        "method": "GET",
+        "path": "api/projects/4/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:22.230Z",
+        "method": "GET",
+        "path": "api/projects/10/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:22.230Z",
+        "method": "GET",
+        "path": "api/projects/1/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:22.231Z",
+        "method": "GET",
+        "path": "api/projects/9/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:22.248Z",
+        "method": "GET",
+        "path": "api/projects/8/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:22.257Z",
+        "method": "GET",
+        "path": "api/projects/6/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:22.260Z",
+        "method": "GET",
+        "path": "api/projects/4/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:22.271Z",
+        "method": "GET",
+        "path": "api/projects/2/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:22.282Z",
+        "method": "GET",
+        "path": "api/projects/1/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:22.800Z",
+        "method": "POST",
+        "path": "api/projects/10/tasks",
+        "status": 201
+      },
+      {
+        "at": "2026-10-31T00:22:22.831Z",
+        "method": "GET",
+        "path": "api/projects",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:22.876Z",
+        "method": "GET",
+        "path": "api/projects",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:22.938Z",
+        "method": "GET",
+        "path": "api/projects/10/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:22.945Z",
+        "method": "GET",
+        "path": "api/projects/9/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:22.950Z",
+        "method": "GET",
+        "path": "api/projects/8/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:22.962Z",
+        "method": "GET",
+        "path": "api/projects/6/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:22.968Z",
+        "method": "GET",
+        "path": "api/projects/4/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:22.978Z",
+        "method": "GET",
+        "path": "api/projects/2/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:22.992Z",
+        "method": "GET",
+        "path": "api/projects/1/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:23.001Z",
+        "method": "GET",
+        "path": "api/projects/8/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:23.001Z",
+        "method": "GET",
+        "path": "api/projects/9/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:23.005Z",
+        "method": "GET",
+        "path": "api/projects/10/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:23.014Z",
+        "method": "GET",
+        "path": "api/projects/6/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:23.019Z",
+        "method": "GET",
+        "path": "api/projects/4/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:23.028Z",
+        "method": "GET",
+        "path": "api/projects/1/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:23.033Z",
+        "method": "GET",
+        "path": "api/projects/2/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:23.321Z",
+        "method": "GET",
+        "path": "api/projects",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:23.356Z",
+        "method": "GET",
+        "path": "api/projects/10/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:23.395Z",
+        "method": "GET",
+        "path": "api/projects/9/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:23.425Z",
+        "method": "GET",
+        "path": "api/projects/8/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:23.455Z",
+        "method": "GET",
+        "path": "api/projects/4/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:23.462Z",
+        "method": "GET",
+        "path": "api/projects/2/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:23.486Z",
+        "method": "GET",
+        "path": "api/projects/6/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:23.491Z",
+        "method": "GET",
+        "path": "api/projects/1/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:23.970Z",
+        "method": "GET",
+        "path": "api/projects",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:24.001Z",
+        "method": "GET",
+        "path": "api/projects/10/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:24.036Z",
+        "method": "GET",
+        "path": "api/projects/8/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:24.036Z",
+        "method": "GET",
+        "path": "api/projects/9/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:24.089Z",
+        "method": "GET",
+        "path": "api/projects/6/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:24.096Z",
+        "method": "GET",
+        "path": "api/projects/4/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:24.104Z",
+        "method": "GET",
+        "path": "api/projects/2/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:24.153Z",
+        "method": "GET",
+        "path": "api/projects/1/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:24.322Z",
+        "method": "GET",
+        "path": "api/tasks/7",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:24.540Z",
+        "method": "PATCH",
+        "path": "api/tasks/7",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:24.572Z",
+        "method": "GET",
+        "path": "api/projects",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:24.616Z",
+        "method": "GET",
+        "path": "api/projects",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:24.653Z",
+        "method": "GET",
+        "path": "api/projects/10/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:24.676Z",
+        "method": "GET",
+        "path": "api/projects/8/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:24.678Z",
+        "method": "GET",
+        "path": "api/projects/9/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:24.679Z",
+        "method": "GET",
+        "path": "api/projects/6/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:24.685Z",
+        "method": "GET",
+        "path": "api/projects/4/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:24.710Z",
+        "method": "GET",
+        "path": "api/projects/1/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:24.711Z",
+        "method": "GET",
+        "path": "api/projects/2/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:24.711Z",
+        "method": "GET",
+        "path": "api/projects/10/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:24.714Z",
+        "method": "GET",
+        "path": "api/projects/8/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:24.733Z",
+        "method": "GET",
+        "path": "api/projects/6/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:24.738Z",
+        "method": "GET",
+        "path": "api/projects/9/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:24.738Z",
+        "method": "GET",
+        "path": "api/projects/2/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:24.739Z",
+        "method": "GET",
+        "path": "api/projects/1/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:24.743Z",
+        "method": "GET",
+        "path": "api/projects/4/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:25.322Z",
+        "method": "GET",
+        "path": "api/projects",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:25.353Z",
+        "method": "GET",
+        "path": "api/projects/8/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:25.354Z",
+        "method": "GET",
+        "path": "api/projects/9/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:25.358Z",
+        "method": "GET",
+        "path": "api/projects/10/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:25.359Z",
+        "method": "GET",
+        "path": "api/projects/4/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:25.362Z",
+        "method": "GET",
+        "path": "api/projects/6/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:25.378Z",
+        "method": "GET",
+        "path": "api/projects/2/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:25.381Z",
+        "method": "GET",
+        "path": "api/projects/1/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:25.473Z",
+        "method": "GET",
+        "path": "api/tasks/7",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:25.584Z",
+        "method": "PATCH",
+        "path": "api/tasks/7",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:25.610Z",
+        "method": "GET",
+        "path": "api/projects",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:25.641Z",
+        "method": "GET",
+        "path": "api/projects/10/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:25.644Z",
+        "method": "GET",
+        "path": "api/projects",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:25.647Z",
+        "method": "GET",
+        "path": "api/projects/9/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:25.672Z",
+        "method": "GET",
+        "path": "api/projects/6/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:25.679Z",
+        "method": "GET",
+        "path": "api/projects/8/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:25.703Z",
+        "method": "GET",
+        "path": "api/projects/4/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:25.756Z",
+        "method": "GET",
+        "path": "api/projects/2/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:25.771Z",
+        "method": "GET",
+        "path": "api/projects/9/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:25.774Z",
+        "method": "GET",
+        "path": "api/projects/1/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:25.774Z",
+        "method": "GET",
+        "path": "api/projects/10/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:25.781Z",
+        "method": "GET",
+        "path": "api/projects/6/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:25.786Z",
+        "method": "GET",
+        "path": "api/projects/8/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:25.804Z",
+        "method": "GET",
+        "path": "api/projects/2/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:25.808Z",
+        "method": "GET",
+        "path": "api/projects/4/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:25.809Z",
+        "method": "GET",
+        "path": "api/projects/1/tasks",
+        "status": 200
+      }
+    ],
+    "websockets": [
+      {
+        "url": "ws://localhost:8080/comp713-a3/ws/tasks",
+        "openedAt": "2026-10-31T00:22:21.005Z",
+        "received": [
+          {
+            "at": "2026-10-31T00:22:21.019Z",
+            "type": "ready"
+          },
+          {
+            "at": "2026-10-31T00:22:21.994Z",
+            "type": "project.changed"
+          },
+          {
+            "at": "2026-10-31T00:22:22.793Z",
+            "type": "task.changed"
+          },
+          {
+            "at": "2026-10-31T00:22:23.285Z",
+            "type": "task.changed"
+          },
+          {
+            "at": "2026-10-31T00:22:23.938Z",
+            "type": "task.changed"
+          },
+          {
+            "at": "2026-10-31T00:22:24.534Z",
+            "type": "task.changed"
+          }
+        ],
+        "sentTypes": [
+          "auth"
+        ],
+        "closedAt": "2026-10-31T00:22:24.767Z"
+      },
+      {
+        "url": "ws://localhost:8080/comp713-a3/ws/tasks",
+        "openedAt": "2026-10-31T00:22:25.143Z",
+        "received": [
+          {
+            "at": "2026-10-31T00:22:25.253Z",
+            "type": "ready"
+          },
+          {
+            "at": "2026-10-31T00:22:25.578Z",
+            "type": "task.changed"
+          }
+        ],
+        "sentTypes": [
+          "auth"
+        ]
+      }
+    ],
+    "pageErrors": [],
+    "failedRequests": []
+  },
+  "worker": {
+    "mainNavigations": [
+      {
+        "at": "2026-10-31T00:22:21.061Z",
+        "url": "http://localhost:8080/comp713-a3/"
+      }
+    ],
+    "api": [
+      {
+        "at": "2026-10-31T00:22:21.413Z",
+        "method": "POST",
+        "path": "api/auth/login",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:21.446Z",
+        "method": "GET",
+        "path": "api/auth/me",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:21.557Z",
+        "method": "GET",
+        "path": "api/projects",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:21.602Z",
+        "method": "GET",
+        "path": "api/projects/9/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:21.602Z",
+        "method": "GET",
+        "path": "api/projects/4/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:21.604Z",
+        "method": "GET",
+        "path": "api/projects/8/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:21.605Z",
+        "method": "GET",
+        "path": "api/projects/6/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:21.607Z",
+        "method": "GET",
+        "path": "api/projects/2/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:21.636Z",
+        "method": "GET",
+        "path": "api/projects/1/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:21.750Z",
+        "method": "GET",
+        "path": "api/projects",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:21.814Z",
+        "method": "GET",
+        "path": "api/projects/9/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:21.843Z",
+        "method": "GET",
+        "path": "api/projects/8/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:21.863Z",
+        "method": "GET",
+        "path": "api/projects/4/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:21.863Z",
+        "method": "GET",
+        "path": "api/projects/2/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:21.889Z",
+        "method": "GET",
+        "path": "api/projects/6/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:21.890Z",
+        "method": "GET",
+        "path": "api/projects/1/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:22.070Z",
+        "method": "GET",
+        "path": "api/projects",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:22.167Z",
+        "method": "GET",
+        "path": "api/projects/10/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:22.189Z",
+        "method": "GET",
+        "path": "api/projects/8/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:22.208Z",
+        "method": "GET",
+        "path": "api/projects/4/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:22.208Z",
+        "method": "GET",
+        "path": "api/projects/6/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:22.208Z",
+        "method": "GET",
+        "path": "api/projects/2/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:22.217Z",
+        "method": "GET",
+        "path": "api/projects/9/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:22.255Z",
+        "method": "GET",
+        "path": "api/projects/1/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:22.823Z",
+        "method": "GET",
+        "path": "api/projects",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:22.862Z",
+        "method": "GET",
+        "path": "api/projects/10/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:22.875Z",
+        "method": "GET",
+        "path": "api/projects/9/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:22.876Z",
+        "method": "GET",
+        "path": "api/projects/8/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:22.901Z",
+        "method": "GET",
+        "path": "api/projects/4/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:22.903Z",
+        "method": "GET",
+        "path": "api/projects/6/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:22.911Z",
+        "method": "GET",
+        "path": "api/projects/2/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:22.977Z",
+        "method": "GET",
+        "path": "api/projects/1/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:23.196Z",
+        "method": "GET",
+        "path": "api/tasks/7",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:23.295Z",
+        "method": "PATCH",
+        "path": "api/tasks/7",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:23.321Z",
+        "method": "GET",
+        "path": "api/projects",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:23.361Z",
+        "method": "GET",
+        "path": "api/projects/9/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:23.362Z",
+        "method": "GET",
+        "path": "api/projects/10/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:23.366Z",
+        "method": "GET",
+        "path": "api/projects",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:23.385Z",
+        "method": "GET",
+        "path": "api/projects/8/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:23.430Z",
+        "method": "GET",
+        "path": "api/projects/6/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:23.454Z",
+        "method": "GET",
+        "path": "api/projects/4/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:23.500Z",
+        "method": "GET",
+        "path": "api/projects/2/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:23.512Z",
+        "method": "GET",
+        "path": "api/projects/1/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:23.517Z",
+        "method": "GET",
+        "path": "api/projects/8/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:23.520Z",
+        "method": "GET",
+        "path": "api/projects/9/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:23.520Z",
+        "method": "GET",
+        "path": "api/projects/6/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:23.529Z",
+        "method": "GET",
+        "path": "api/projects/10/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:23.541Z",
+        "method": "GET",
+        "path": "api/projects/4/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:23.548Z",
+        "method": "GET",
+        "path": "api/projects/1/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:23.549Z",
+        "method": "GET",
+        "path": "api/projects/2/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:23.562Z",
+        "method": "GET",
+        "path": "api/tasks/7",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:23.710Z",
+        "method": "PATCH",
+        "path": "api/tasks/7",
+        "status": 400
+      },
+      {
+        "at": "2026-10-31T00:22:23.944Z",
+        "method": "PATCH",
+        "path": "api/tasks/7",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:23.970Z",
+        "method": "GET",
+        "path": "api/projects",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:24.002Z",
+        "method": "GET",
+        "path": "api/projects/10/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:24.003Z",
+        "method": "GET",
+        "path": "api/projects",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:24.072Z",
+        "method": "GET",
+        "path": "api/projects/9/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:24.073Z",
+        "method": "GET",
+        "path": "api/projects/8/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:24.096Z",
+        "method": "GET",
+        "path": "api/projects/6/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:24.104Z",
+        "method": "GET",
+        "path": "api/projects/4/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:24.143Z",
+        "method": "GET",
+        "path": "api/projects/2/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:24.144Z",
+        "method": "GET",
+        "path": "api/projects/1/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:24.157Z",
+        "method": "GET",
+        "path": "api/projects/10/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:24.175Z",
+        "method": "GET",
+        "path": "api/projects/9/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:24.187Z",
+        "method": "GET",
+        "path": "api/projects/8/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:24.188Z",
+        "method": "GET",
+        "path": "api/projects/2/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:24.189Z",
+        "method": "GET",
+        "path": "api/projects/4/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:24.196Z",
+        "method": "GET",
+        "path": "api/projects/6/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:24.205Z",
+        "method": "GET",
+        "path": "api/projects/1/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:24.569Z",
+        "method": "GET",
+        "path": "api/projects",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:24.630Z",
+        "method": "GET",
+        "path": "api/projects/10/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:24.634Z",
+        "method": "GET",
+        "path": "api/projects/9/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:24.648Z",
+        "method": "GET",
+        "path": "api/projects/8/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:24.652Z",
+        "method": "GET",
+        "path": "api/projects/6/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:24.656Z",
+        "method": "GET",
+        "path": "api/projects/2/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:24.656Z",
+        "method": "GET",
+        "path": "api/projects/4/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:24.710Z",
+        "method": "GET",
+        "path": "api/projects/1/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:24.911Z",
+        "method": "GET",
+        "path": "api/tasks/7",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:25.079Z",
+        "method": "PATCH",
+        "path": "api/tasks/7",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:25.108Z",
+        "method": "GET",
+        "path": "api/projects",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:25.148Z",
+        "method": "GET",
+        "path": "api/projects",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:25.184Z",
+        "method": "GET",
+        "path": "api/projects/9/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:25.184Z",
+        "method": "GET",
+        "path": "api/projects/10/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:25.203Z",
+        "method": "GET",
+        "path": "api/projects/8/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:25.217Z",
+        "method": "GET",
+        "path": "api/projects/4/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:25.217Z",
+        "method": "GET",
+        "path": "api/projects/6/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:25.231Z",
+        "method": "GET",
+        "path": "api/projects/2/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:25.242Z",
+        "method": "GET",
+        "path": "api/projects/1/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:25.256Z",
+        "method": "GET",
+        "path": "api/projects/9/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:25.276Z",
+        "method": "GET",
+        "path": "api/projects/10/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:25.277Z",
+        "method": "GET",
+        "path": "api/projects/8/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:25.289Z",
+        "method": "GET",
+        "path": "api/projects/4/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:25.292Z",
+        "method": "GET",
+        "path": "api/projects/2/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:25.292Z",
+        "method": "GET",
+        "path": "api/projects/6/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:25.307Z",
+        "method": "GET",
+        "path": "api/projects/1/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:25.621Z",
+        "method": "GET",
+        "path": "api/projects",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:25.707Z",
+        "method": "GET",
+        "path": "api/projects/10/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:25.711Z",
+        "method": "GET",
+        "path": "api/projects/9/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:25.720Z",
+        "method": "GET",
+        "path": "api/projects/8/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:25.734Z",
+        "method": "GET",
+        "path": "api/projects/4/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:25.737Z",
+        "method": "GET",
+        "path": "api/projects/6/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:25.738Z",
+        "method": "GET",
+        "path": "api/projects/2/tasks",
+        "status": 200
+      },
+      {
+        "at": "2026-10-31T00:22:25.804Z",
+        "method": "GET",
+        "path": "api/projects/1/tasks",
+        "status": 200
+      }
+    ],
+    "websockets": [
+      {
+        "url": "ws://localhost:8080/comp713-a3/ws/tasks",
+        "openedAt": "2026-10-31T00:22:21.691Z",
+        "received": [
+          {
+            "at": "2026-10-31T00:22:21.708Z",
+            "type": "ready"
+          },
+          {
+            "at": "2026-10-31T00:22:21.994Z",
+            "type": "project.changed"
+          },
+          {
+            "at": "2026-10-31T00:22:22.789Z",
+            "type": "task.changed"
+          },
+          {
+            "at": "2026-10-31T00:22:23.284Z",
+            "type": "task.changed"
+          },
+          {
+            "at": "2026-10-31T00:22:23.937Z",
+            "type": "task.changed"
+          },
+          {
+            "at": "2026-10-31T00:22:24.532Z",
+            "type": "task.changed"
+          },
+          {
+            "at": "2026-10-31T00:22:25.073Z",
+            "type": "task.changed"
+          },
+          {
+            "at": "2026-10-31T00:22:25.580Z",
+            "type": "task.changed"
+          }
+        ],
+        "sentTypes": [
+          "auth"
+        ]
+      }
+    ],
+    "pageErrors": [],
+    "failedRequests": []
+  }
+}

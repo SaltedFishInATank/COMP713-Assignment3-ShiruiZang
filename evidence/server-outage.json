@@ -1,0 +1,6 @@
+{
+  "at": "2026-10-31T00:24:12.648Z",
+  "status": "PASS",
+  "observation": "fetch failed",
+  "condition": "Payara domain deliberately stopped; real HTTP request failed"
+}

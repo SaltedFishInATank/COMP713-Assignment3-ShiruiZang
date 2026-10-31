@@ -1,4 +1,3 @@
-# COMP723Assignment-3[README.md](https://github.com/user-attachments/files/34210150/README.md)
 # Fieldwork — COMP713 Assessment 3
 
 Shirui Zang · 21136179 · Solo development · 31 October 2026 (Pacific/Auckland)

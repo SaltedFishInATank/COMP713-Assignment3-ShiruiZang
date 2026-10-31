@@ -1,0 +1,62 @@
+{
+  "at": "2026-10-31T00:25:08.737Z",
+  "base": "http://127.0.0.1:8080/comp713-a3/api/",
+  "taskId": 4,
+  "comparison": [
+    {
+      "key": "id",
+      "expected": 4,
+      "actual": 4,
+      "same": true
+    },
+    {
+      "key": "projectId",
+      "expected": 6,
+      "actual": 6,
+      "same": true
+    },
+    {
+      "key": "title",
+      "expected": "Inspect science building 1793406020116",
+      "actual": "Inspect science building 1793406020116",
+      "same": true
+    },
+    {
+      "key": "status",
+      "expected": "done",
+      "actual": "done",
+      "same": true
+    },
+    {
+      "key": "assignedTo",
+      "expected": 2,
+      "actual": 2,
+      "same": true
+    },
+    {
+      "key": "completionNote",
+      "expected": "Rework complete.",
+      "actual": "Rework complete.",
+      "same": true
+    },
+    {
+      "key": "latitude",
+      "expected": -36.85,
+      "actual": -36.85,
+      "same": true
+    },
+    {
+      "key": "longitude",
+      "expected": 174.76,
+      "actual": 174.76,
+      "same": true
+    },
+    {
+      "key": "version",
+      "expected": 5,
+      "actual": 5,
+      "same": true
+    }
+  ],
+  "status": "PASS"
+}

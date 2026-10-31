@@ -1,0 +1,8 @@
+{
+  "at": "2026-10-31",
+  "utf8JsonXml": "PASS",
+  "freshSourceBackend": "PASS: 9 tests; Maven clean verify",
+  "freshSourceConsumer": "PASS: 3 tests; Maven clean package",
+  "sourceCopy": "Workspace source copied without target/build/data, then rebuilt using cached dependency repository; this is not a clean machine dependency download",
+  "backendWarSha256": "d54664dea9137924f83cb573530267878148fc3b2b3df30e11403e63a0e38a2f"
+}

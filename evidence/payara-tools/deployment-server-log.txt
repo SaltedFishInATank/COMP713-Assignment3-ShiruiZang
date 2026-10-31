@@ -1,0 +1,800 @@
+  JMXStartupService: Stopped JMXConnectorServer: null]]
+
+[2026-10-31T13:11:58.820+1300] [Payara 6.2025.10] [INFO] [NCLS-JMX-00001] [javax.enterprise.system.jmx] [tid: _ThreadID=307 _ThreadName=Thread-26] [timeMillis: 1793405518820] [levelValue: 800] [[
+  JMXStartupService and JMXConnectors have been shut down.]]
+
+[2026-10-31T13:11:59.194+1300] [Payara 6.2025.10] [INFO] [] [fish.payara.nucleus.hazelcast.HazelcastCore] [tid: _ThreadID=309 _ThreadName=RunLevelControllerThread-1793405518830] [timeMillis: 1793405519194] [levelValue: 800] [[
+  Hazelcast Instance Unbound from JNDI at payara/Hazelcast]]
+
+[2026-10-31T13:11:59.197+1300] [Payara 6.2025.10] [INFO] [] [fish.payara.nucleus.hazelcast.HazelcastCore] [tid: _ThreadID=309 _ThreadName=RunLevelControllerThread-1793405518830] [timeMillis: 1793405519197] [levelValue: 800] [[
+  JSR107 Caching Provider Unbound from JNDI at payara/CachingProvider]]
+
+[2026-10-31T13:11:59.197+1300] [Payara 6.2025.10] [INFO] [] [fish.payara.nucleus.hazelcast.HazelcastCore] [tid: _ThreadID=309 _ThreadName=RunLevelControllerThread-1793405518830] [timeMillis: 1793405519197] [levelValue: 800] [[
+  JSR107 Cache Manager Unbound from JNDI at payara/CacheManager]]
+
+[2026-10-31T13:11:59.324+1300] [Payara 6.2025.10] [INFO] [] [fish.payara.nucleus.hazelcast.HazelcastCore] [tid: _ThreadID=309 _ThreadName=RunLevelControllerThread-1793405518830] [timeMillis: 1793405519324] [levelValue: 800] [[
+  Shutdown Hazelcast]]
+
+[2026-10-31T13:11:59.388+1300] [Payara 6.2025.10] [INFO] [] [] [tid: _ThreadID=309 _ThreadName=RunLevelControllerThread-1793405518830] [timeMillis: 1793405519388] [levelValue: 800] [[
+  JdbcRuntimeExtension,  getAllSystemRAResourcesAndPools = [GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool]]]
+
+[2026-10-31T13:12:48.233+1300] [Payara 6.2025.10] [INFO] [NCLS-LOGGING-00009] [jakarta.enterprise.logging] [tid: _ThreadID=71 _ThreadName=RunLevelControllerThread-1793405568076] [timeMillis: 1793405568233] [levelValue: 800] [[
+  Running Payara Version: Payara Server 6.2025.10 (build 42)]]
+
+[2026-10-31T13:12:48.243+1300] [Payara 6.2025.10] [INFO] [NCLS-LOGGING-00010] [jakarta.enterprise.logging] [tid: _ThreadID=71 _ThreadName=RunLevelControllerThread-1793405568076] [timeMillis: 1793405568243] [levelValue: 800] [[
+  Server log file is using Formatter class: com.sun.enterprise.server.logging.ODLLogFormatter]]
+
+[2026-10-31T13:12:49.377+1300] [Payara 6.2025.10] [INFO] [] [org.glassfish.ha.store.spi.BackingStoreFactoryRegistry] [tid: _ThreadID=71 _ThreadName=RunLevelControllerThread-1793405568076] [timeMillis: 1793405569377] [levelValue: 800] [[
+  Registered fish.payara.ha.hazelcast.store.HazelcastBackingStoreFactoryProxy for persistence-type = hazelcast in BackingStoreFactoryRegistry]]
+
+[2026-10-31T13:12:55.849+1300] [Payara 6.2025.10] [INFO] [] [fish.payara.nucleus.hazelcast.HazelcastCore] [tid: _ThreadID=70 _ThreadName=RunLevelControllerThread-1793405568072] [timeMillis: 1793405575849] [levelValue: 800] [[
+  Hazelcast Instance Bound to JNDI at payara/Hazelcast]]
+
+[2026-10-31T13:12:55.851+1300] [Payara 6.2025.10] [INFO] [] [fish.payara.nucleus.hazelcast.HazelcastCore] [tid: _ThreadID=70 _ThreadName=RunLevelControllerThread-1793405568072] [timeMillis: 1793405575851] [levelValue: 800] [[
+  JSR107 Caching Provider Bound to JNDI at payara/CachingProvider]]
+
+[2026-10-31T13:12:55.852+1300] [Payara 6.2025.10] [INFO] [] [fish.payara.nucleus.hazelcast.HazelcastCore] [tid: _ThreadID=70 _ThreadName=RunLevelControllerThread-1793405568072] [timeMillis: 1793405575852] [levelValue: 800] [[
+  JSR107 Default Cache Manager Bound to JNDI at payara/CacheManager]]
+
+[2026-10-31T13:12:55.987+1300] [Payara 6.2025.10] [INFO] [NCLS-CORE-00101] [javax.enterprise.system.core] [tid: _ThreadID=70 _ThreadName=RunLevelControllerThread-1793405568072] [timeMillis: 1793405575987] [levelValue: 800] [[
+  Network Listener http-listener-1 started in: 10ms - bound to [/0.0.0.0:8080]]]
+
+[2026-10-31T13:12:56.004+1300] [Payara 6.2025.10] [INFO] [] [org.hibernate.validator.internal.util.Version] [tid: _ThreadID=71 _ThreadName=RunLevelControllerThread-1793405568076] [timeMillis: 1793405576004] [levelValue: 800] [[
+  HV000001: Hibernate Validator 8.0.1.Final.payara-p1]]
+
+[2026-10-31T13:12:56.022+1300] [Payara 6.2025.10] [INFO] [NCLS-CORE-00101] [javax.enterprise.system.core] [tid: _ThreadID=70 _ThreadName=RunLevelControllerThread-1793405568072] [timeMillis: 1793405576022] [levelValue: 800] [[
+  Network Listener http-listener-2 started in: 6ms - bound to [/0.0.0.0:8181]]]
+
+[2026-10-31T13:12:56.037+1300] [Payara 6.2025.10] [INFO] [NCLS-CORE-00101] [javax.enterprise.system.core] [tid: _ThreadID=70 _ThreadName=RunLevelControllerThread-1793405568072] [timeMillis: 1793405576037] [levelValue: 800] [[
+  Network Listener admin-listener started in: 5ms - bound to [/0.0.0.0:4848]]]
+
+[2026-10-31T13:12:56.040+1300] [Payara 6.2025.10] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=70 _ThreadName=RunLevelControllerThread-1793405568072] [timeMillis: 1793405576040] [levelValue: 800] [[
+  Grizzly 4.0.2 started in: 6882ms - bound to [http-listener-1:8080, http-listener-2:8181, admin-listener:4848]]]
+
+[2026-10-31T13:12:56.129+1300] [Payara 6.2025.10] [INFO] [NCLS-CORE-00101] [javax.enterprise.system.core] [tid: _ThreadID=72 _ThreadName=RunLevelControllerThread-1793405568086] [timeMillis: 1793405576129] [levelValue: 800] [[
+  Network Listener iiop-service started in: 3ms - bound to [/0.0.0.0:3700]]]
+
+[2026-10-31T13:12:56.469+1300] [Payara 6.2025.10] [INFO] [] [io.opentelemetry.api.GlobalOpenTelemetry] [tid: _ThreadID=71 _ThreadName=RunLevelControllerThread-1793405568076] [timeMillis: 1793405576469] [levelValue: 800] [[
+  AutoConfiguredOpenTelemetrySdk found on classpath but automatic configuration is disabled. To enable, run your JVM with -Dotel.java.global-autoconfigure.enabled=true]]
+
+[2026-10-31T13:12:56.538+1300] [Payara 6.2025.10] [INFO] [] [fish.payara.nucleus.cluster.PayaraCluster] [tid: _ThreadID=180 _ThreadName=Executor-Service-6] [timeMillis: 1793405576538] [levelValue: 800] [[
+  Data Grid Status 
+Payara Data Grid State: DG Version: 5 DG Name: development DG Size: 1
+Instances: {
+ DataGrid: development Name: server Lite: false This: true UUID: 867f1865-61b1-4f05-8ebb-b77eee55169d Address: /192.168.1.12:4900
+}]]
+
+[2026-10-31T13:12:56.538+1300] [Payara 6.2025.10] [INFO] [NCLS-CORE-00017] [javax.enterprise.system.core] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1793405576538] [levelValue: 800] [[
+  Payara Server 6.2025.10 (42) startup time : Felix (6372ms), startup services(8474ms), total(14846ms)]]
+
+[2026-10-31T13:12:58.421+1300] [Payara 6.2025.10] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=70 _ThreadName=RunLevelControllerThread-1793405568072] [timeMillis: 1793405578421] [levelValue: 800] [[
+  No deployment transformer implementation found.]]
+
+[2026-10-31T13:12:59.216+1300] [Payara 6.2025.10] [WARNING] [NCLS-SECURITY-05054] [javax.enterprise.system.security.ssl] [tid: _ThreadID=70 _ThreadName=RunLevelControllerThread-1793405568072] [timeMillis: 1793405579216] [levelValue: 900] [[
+  The SSL certificate with alias trustcenterclass4caii has expired: [
+[
+  Version: V3
+  Subject: CN=TC TrustCenter Class 4 CA II, OU=TC TrustCenter Class 4 CA, O=TC TrustCenter GmbH, C=DE
+  Signature Algorithm: SHA1withRSA, OID = 1.2.840.113549.1.1.5
+
+  Key:  Sun RSA public key, 2048 bits
+  params: null
+  modulus: 22950370039933500676994989118201491097790297411405309828721982368556708684580161622224637768016414419477529963599377981340438776506795541254817783798418326710720463181372714973230604579556287945811624245763246009196772610082450014107132476643300083788431376735201512678784489143877422604292527202843784897126841333903443753475529671859748593013021081594403126471577726782843434999907620367670453791981120870116149692427694170838256569306309135837987885326993193841760664803070946552707041820505651909863032902035729834001457174684055280619989407009638893348920517767609881939396168532536281725241047007763152761708687
+  public exponent: 65537
+  Validity: [From: Fri Mar 24 02:10:23 NZST 2006,
+               To: Thu Jan 01 11:59:59 NZDT 2026]
+  Issuer: CN=TC TrustCenter Class 4 CA II, OU=TC TrustCenter Class 4 CA, O=TC TrustCenter GmbH, C=DE
+  SerialNumber: 05:c0:00:01:00:02:41:d0:06:0a:4d:ce:75:10
+
+Certificate Extensions: 3
+[1]: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen: no limit
+]
+
+[2]: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  DigitalSignature
+  Key_CertSign
+  Crl_Sign
+]
+
+[3]: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 1F EA BB 3E 25 1B 06 BD   A5 DD 62 05 7E C6 4C 5A  ...>%.....b...LZ
+0010: BF E8 0F 43                                        ...C
+]
+]
+
+]
+  Algorithm: [SHA1withRSA]
+  Signature:
+0000: 58 A4 2B 9B 4C F7 E4 A4   92 A4 9C 65 98 19 62 22  X.+.L......e..b"
+0010: FC 72 32 E9 04 5D C4 C4   70 2D 5A 46 DE 4C 47 8A  .r2..]..p-ZF.LG.
+0020: 25 B9 A2 DD EE EA 12 AF   48 8D EF 2B 67 DB 3B CC  %.......H..+g.;.
+0030: 34 98 2A F7 08 47 FF 22   AF 7B F1 F4 EB E2 38 02  4.*..G."......8.
+0040: 33 18 75 28 1B 9E 76 65   AC 88 03 72 F2 38 47 1D  3.u(..ve...r.8G.
+0050: 8C F5 9F 0A 88 53 10 14   BB 80 E5 0C B3 5D 8D 17  .....S.......]..
+0060: EE 1E 19 1C 86 8D 14 67   78 8C 92 CB 1E 21 49 F7  .......gx....!I.
+0070: 7F D3 18 BF 9C 79 F8 5D   08 79 B5 AA 6A 4D 92 36  .....y.].y..jM.6
+0080: 6C BC 79 EB 0E 3D 79 8A   D8 F6 A3 56 70 5D DE DB  l.y..=y....Vp]..
+0090: 4F 79 D2 7A D2 95 5C 86   27 65 BE A0 D3 07 81 40  Oy.z..\.'e.....@
+00A0: 55 DD 10 CB E0 4B 88 82   C0 90 7D 38 E7 BF 96 E1  U....K.....8....
+00B0: 97 BA 9A AB 42 0F D3 9F   D8 9E 15 33 11 CB F7 82  ....B......3....
+00C0: 79 F5 B5 C0 41 56 92 E1   DF 55 03 AD 48 CF D3 F2  y...AV...U..H...
+00D0: 2E B1 C7 2D 56 4C 64 74   2A 31 CE DC 75 A9 54 47  ...-VLdt*1..u.TG
+00E0: A4 A7 42 72 09 E7 E1 02   A6 47 B2 04 CD 42 13 E1  ..Br.....G...B..
+00F0: 61 0C E0 78 3A 22 20 A2   1C 60 42 86 87 F7 A5 E6  a..x:" ..`B.....
+
+]]]
+
+[2026-10-31T13:12:59.224+1300] [Payara 6.2025.10] [WARNING] [NCLS-SECURITY-05054] [javax.enterprise.system.security.ssl] [tid: _ThreadID=70 _ThreadName=RunLevelControllerThread-1793405568072] [timeMillis: 1793405579224] [levelValue: 900] [[
+  The SSL certificate with alias trustcenteruniversalcai has expired: [
+[
+  Version: V3
+  Subject: CN=TC TrustCenter Universal CA I, OU=TC TrustCenter Universal CA, O=TC TrustCenter GmbH, C=DE
+  Signature Algorithm: SHA1withRSA, OID = 1.2.840.113549.1.1.5
+
+  Key:  Sun RSA public key, 2048 bits
+  params: null
+  modulus: 20761831650713250220992367249279448677953452319887827967801560492350357437879560092660873027410905123273317295238275517715638988998303289502013788828467105675146106868970454484005338000243412291422678223111300354865514453056496621169704822477649481709218843857648517883397369463578915797602451292416616256424065036088646003260839217580851539266093044157104785329597787721168767142092683919194526577567587576892019252595663037822470550268965647974257577851145049533204916518651483949191533807189553058992939101623913789153867057893930297901020176760841009269510868046371556731297987469275760729594925323261146753610979
+  public exponent: 65537
+  Validity: [From: Thu Mar 23 03:54:28 NZST 2006,
+               To: Thu Jan 01 11:59:59 NZDT 2026]
+  Issuer: CN=TC TrustCenter Universal CA I, OU=TC TrustCenter Universal CA, O=TC TrustCenter GmbH, C=DE
+  SerialNumber: 1d:a2:00:01:00:02:ec:b7:60:80:78:8d:b6:06
+
+Certificate Extensions: 4
+[1]: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: 92 A4 75 2C A4 9E BE 81   44 EB 79 FC 8A C5 95 A5  ..u,....D.y.....
+0010: EB 10 75 73                                        ..us
+]
+]
+
+[2]: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen: no limit
+]
+
+[3]: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  DigitalSignature
+  Key_CertSign
+  Crl_Sign
+]
+
+[4]: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 92 A4 75 2C A4 9E BE 81   44 EB 79 FC 8A C5 95 A5  ..u,....D.y.....
+0010: EB 10 75 73                                        ..us
+]
+]
+
+]
+  Algorithm: [SHA1withRSA]
+  Signature:
+0000: 28 D2 E0 86 D5 E6 F8 7B   F0 97 DC 22 6B 3B 95 14  (.........."k;..
+0010: 56 0F 11 30 A5 9A 4F 3A   B0 3A E0 06 CB 65 F5 ED  V..0..O:.:...e..
+0020: C6 97 27 FE 25 F2 57 E6   5E 95 8C 3E 64 60 15 5A  ..'.%.W.^..>d`.Z
+0030: 7F 2F 0D 01 C5 B1 60 FD   45 35 CF F0 B2 BF 06 D9  ./....`.E5......
+0040: EF 5A BE B3 62 21 B4 D7   AB 35 7C 53 3E A6 27 F1  .Z..b!...5.S>.'.
+0050: A1 2D DA 1A 23 9D CC DD   EC 3C 2D 9E 27 34 5D 0F  .-..#....<-.'4].
+0060: C2 36 79 BC C9 4A 62 2D   ED 6B D9 7D 41 43 7C B6  .6y..Jb-.k..AC..
+0070: AA CA ED 61 B1 37 82 15   09 1A 8A 16 30 D8 EC C9  ...a.7......0...
+0080: D6 47 72 78 4B 10 46 14   8E 5F 0E AF EC C7 2F AB  .GrxK.F.._..../.
+0090: 10 D7 B6 F1 6E EC 86 B2   C2 E8 0D 92 73 DC A2 F4  ....n.......s...
+00A0: 0F 3A BF 61 23 10 89 9C   48 40 6E 70 00 B3 D3 BA  .:.a#...H@np....
+00B0: 37 44 58 11 7A 02 6A 88   F0 37 34 F0 19 E9 AC D4  7DX.z.j..74.....
+00C0: 65 73 F6 69 8C 64 94 3A   79 85 29 B0 16 2B 0C 82  es.i.d.:y.)..+..
+00D0: 3F 06 9C C7 FD 10 2B 9E   0F 2C B6 9E E3 15 BF D9  ?.....+..,......
+00E0: 36 1C BA 25 1A 52 3D 1A   EC 22 0C 1C E0 A4 A2 3D  6..%.R=..".....=
+00F0: F0 E8 39 CF 81 C0 7B ED   5D 1F 6F C5 D0 0B D7 98  ..9.....].o.....
+
+]]]
+
+[2026-10-31T13:12:59.228+1300] [Payara 6.2025.10] [WARNING] [NCLS-SECURITY-05054] [javax.enterprise.system.security.ssl] [tid: _ThreadID=70 _ThreadName=RunLevelControllerThread-1793405568072] [timeMillis: 1793405579228] [levelValue: 900] [[
+  The SSL certificate with alias trustcenterclass2caii has expired: [
+[
+  Version: V3
+  Subject: CN=TC TrustCenter Class 2 CA II, OU=TC TrustCenter Class 2 CA, O=TC TrustCenter GmbH, C=DE
+  Signature Algorithm: SHA1withRSA, OID = 1.2.840.113549.1.1.5
+
+  Key:  Sun RSA public key, 2048 bits
+  params: null
+  modulus: 21650130515055782963454959811093059003574116295384049443863128973799375760595392693556645895243358980916324166779830972897832456900760147377961870126555163592184251111367927296196206162029383026347106483660070105243464885850554765437389387877313184965343725413730626349242415403208154207296728438680202735183259910301677751638550743133603500527758016486299416551240579531222047111823307832021880777989762839281904578466890762463365278153065924714004395550188208487922490482570312641622280698284013993515706636389929266076965076845823494796193470255067395567049642086237439025996639796001118867820566529106380053972213
+  public exponent: 65537
+  Validity: [From: Fri Jan 13 03:38:43 NZDT 2006,
+               To: Thu Jan 01 11:59:59 NZDT 2026]
+  Issuer: CN=TC TrustCenter Class 2 CA II, OU=TC TrustCenter Class 2 CA, O=TC TrustCenter GmbH, C=DE
+  SerialNumber: 2e:6a:00:01:00:02:1f:d7:52:21:2c:11:5c:3b
+
+Certificate Extensions: 4
+[1]: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen: no limit
+]
+
+[2]: ObjectId: 2.5.29.31 Criticality=false
+CRLDistributionPoints [
+  [DistributionPoint:
+     [URIName: http://www.trustcenter.de/crl/v2/tc_class_2_ca_II.crl, URIName: ldap://www.trustcenter.de/CN=TC%20TrustCenter%20Class%202%20CA%20II,O=TC%20TrustCenter%20GmbH,OU=rootcerts,DC=trustcenter,DC=de?certificateRevocationList?base?]
+]]
+
+[3]: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  Key_CertSign
+  Crl_Sign
+]
+
+[4]: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: E3 AB 54 4C 80 A1 DB 56   43 B7 91 4A CB F3 82 7A  ..TL...VC..J...z
+0010: 13 5C 08 AB                                        .\..
+]
+]
+
+]
+  Algorithm: [SHA1withRSA]
+  Signature:
+0000: 8C D7 DF 7E EE 1B 80 10   B3 83 F5 DB 11 EA 6B 4B  ..............kK
+0010: A8 92 18 D9 F7 07 39 F5   2C BE 06 75 7A 68 53 15  ......9.,..uzhS.
+0020: 1C EA 4A ED 5E FC 23 B2   13 A0 D3 09 FF F6 F6 2E  ..J.^.#.........
+0030: 6B 41 71 79 CD E2 6D FD   AE 59 6B 85 1D B8 4E 22  kAqy..m..Yk...N"
+0040: 9A ED 66 39 6E 4B 94 E6   55 FC 0B 1B 8B 77 C1 53  ..f9nK..U....w.S
+0050: 13 66 89 D9 28 D6 8B F3   45 4A 63 B7 FD 7B 0B 61  .f..(...EJc....a
+0060: 5D B8 6D BE C3 DC 5B 79   D2 ED 86 E5 A2 4D BE 5E  ].m...[y.....M.^
+0070: 74 7C 6A ED 16 38 1F 7F   58 81 5A 1A EB 32 88 2D  t.j..8..X.Z..2.-
+0080: B2 F3 39 77 80 AF 5E B6   61 75 29 DB 23 4D 88 CA  ..9w..^.au).#M..
+0090: 50 28 CB 85 D2 D3 10 A2   59 6E D3 93 54 00 7A A2  P(......Yn..T.z.
+00A0: 46 95 86 05 9C A9 19 98   E5 31 72 0C 00 E2 67 D9  F........1r...g.
+00B0: 40 E0 24 33 7B 6F 2C B9   5C AB 65 9D 2C AC 76 EA  @.$3.o,.\.e.,.v.
+00C0: 35 99 F5 97 B9 0F 24 EC   C7 76 21 28 65 AE 57 E8  5.....$..v!(e.W.
+00D0: 07 88 75 4A 56 A0 D2 05   3A A4 E6 8D 92 88 2C F3  ..uJV...:.....,.
+00E0: F2 E1 C1 C6 61 DB 41 C5   C7 9B F7 0E 1A 51 45 C2  ....a.A......QE.
+00F0: 61 6B DC 64 27 17 8C 5A   B7 DA 74 28 CD 97 E4 BD  ak.d'..Z..t(....
+
+]]]
+
+[2026-10-31T13:12:59.249+1300] [Payara 6.2025.10] [INFO] [NCLS-SECURITY-01002] [javax.enterprise.system.core.security] [tid: _ThreadID=70 _ThreadName=RunLevelControllerThread-1793405568072] [timeMillis: 1793405579249] [levelValue: 800] [[
+  Java security manager is disabled.]]
+
+[2026-10-31T13:12:59.250+1300] [Payara 6.2025.10] [INFO] [NCLS-SECURITY-01010] [javax.enterprise.system.core.security] [tid: _ThreadID=70 _ThreadName=RunLevelControllerThread-1793405568072] [timeMillis: 1793405579250] [levelValue: 800] [[
+  Entering Security Startup Service.]]
+
+[2026-10-31T13:12:59.251+1300] [Payara 6.2025.10] [INFO] [NCLS-SECURITY-01143] [javax.enterprise.system.core.security] [tid: _ThreadID=70 _ThreadName=RunLevelControllerThread-1793405568072] [timeMillis: 1793405579251] [levelValue: 800] [[
+  Loading policy provider fish.payara.security.jacc.provider.PolicyProviderImpl.]]
+
+[2026-10-31T13:12:59.321+1300] [Payara 6.2025.10] [INFO] [NCLS-SECURITY-01011] [javax.enterprise.system.core.security] [tid: _ThreadID=70 _ThreadName=RunLevelControllerThread-1793405568072] [timeMillis: 1793405579321] [levelValue: 800] [[
+  Security Service(s) started successfully.]]
+
+[2026-10-31T13:12:59.560+1300] [Payara 6.2025.10] [INFO] [AS-WEB-GLUE-00198] [jakarta.enterprise.web] [tid: _ThreadID=70 _ThreadName=RunLevelControllerThread-1793405568072] [timeMillis: 1793405579560] [levelValue: 800] [[
+  Created HTTP listener http-listener-1 on host/port 0.0.0.0:8080]]
+
+[2026-10-31T13:12:59.567+1300] [Payara 6.2025.10] [INFO] [AS-WEB-GLUE-00198] [jakarta.enterprise.web] [tid: _ThreadID=70 _ThreadName=RunLevelControllerThread-1793405568072] [timeMillis: 1793405579567] [levelValue: 800] [[
+  Created HTTP listener http-listener-2 on host/port 0.0.0.0:8181]]
+
+[2026-10-31T13:12:59.571+1300] [Payara 6.2025.10] [INFO] [AS-WEB-GLUE-00198] [jakarta.enterprise.web] [tid: _ThreadID=70 _ThreadName=RunLevelControllerThread-1793405568072] [timeMillis: 1793405579571] [levelValue: 800] [[
+  Created HTTP listener admin-listener on host/port 0.0.0.0:4848]]
+
+[2026-10-31T13:12:59.603+1300] [Payara 6.2025.10] [INFO] [AS-WEB-GLUE-00200] [jakarta.enterprise.web] [tid: _ThreadID=70 _ThreadName=RunLevelControllerThread-1793405568072] [timeMillis: 1793405579603] [levelValue: 800] [[
+  Created virtual server server]]
+
+[2026-10-31T13:12:59.608+1300] [Payara 6.2025.10] [INFO] [AS-WEB-GLUE-00200] [jakarta.enterprise.web] [tid: _ThreadID=70 _ThreadName=RunLevelControllerThread-1793405568072] [timeMillis: 1793405579608] [levelValue: 800] [[
+  Created virtual server __asadmin]]
+
+[2026-10-31T13:12:59.932+1300] [Payara 6.2025.10] [INFO] [AS-WEB-GLUE-00201] [jakarta.enterprise.web] [tid: _ThreadID=70 _ThreadName=RunLevelControllerThread-1793405568072] [timeMillis: 1793405579932] [levelValue: 800] [[
+  Virtual server server loaded default web module ]]
+
+[2026-10-31T13:13:02.570+1300] [Payara 6.2025.10] [INFO] [] [org.jboss.weld.Version] [tid: _ThreadID=70 _ThreadName=RunLevelControllerThread-1793405568072] [timeMillis: 1793405582570] [levelValue: 800] [[
+  WELD-000900: 5.1.6 (Final)]]
+
+[2026-10-31T13:13:06.587+1300] [Payara 6.2025.10] [INFO] [NCLS-CORE-00022] [javax.enterprise.system.core] [tid: _ThreadID=70 _ThreadName=RunLevelControllerThread-1793405568072] [timeMillis: 1793405586587] [levelValue: 800] [[
+  Loading application comp713 done in 9980 ms]]
+
+[2026-10-31T13:13:06.928+1300] [Payara 6.2025.10] [INFO] [] [org.glassfish.soteria.servlet.SamRegistrationInstaller] [tid: _ThreadID=70 _ThreadName=RunLevelControllerThread-1793405568072] [timeMillis: 1793405586928] [levelValue: 800] [[
+  Initializing Soteria 3.0.3.payara-p2 for context '/comp713']]
+
+[2026-10-31T13:13:06.958+1300] [Payara 6.2025.10] [INFO] [] [org.eclipse.krazo.servlet.KrazoContainerInitializer] [tid: _ThreadID=70 _ThreadName=RunLevelControllerThread-1793405568072] [timeMillis: 1793405586958] [levelValue: 800] [[
+  Eclipse Krazo version 3.0.1 started]]
+
+[2026-10-31T13:13:07.569+1300] [Payara 6.2025.10] [INFO] [AS-WEB-GLUE-00172] [jakarta.enterprise.web] [tid: _ThreadID=70 _ThreadName=RunLevelControllerThread-1793405568072] [timeMillis: 1793405587569] [levelValue: 800] [[
+  Loading application [comp713] at [/comp713]]]
+
+[2026-10-31T13:13:07.583+1300] [Payara 6.2025.10] [INFO] [] [fish.payara.nucleus.notification.NotificationService] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1793405587583] [levelValue: 800] [[
+  Payara Notification Service bootstrapped.]]
+
+[2026-10-31T13:13:07.732+1300] [Payara 6.2025.10] [INFO] [NCLS-CORE-00101] [javax.enterprise.system.core] [tid: _ThreadID=73 _ThreadName=RunLevelControllerThread-1793405568086] [timeMillis: 1793405587732] [levelValue: 800] [[
+  Network Listener JMS_PROXY_default_JMS_host started in: 6ms - bound to [/0.0.0.0:7676]]]
+
+[2026-10-31T13:13:07.864+1300] [Payara 6.2025.10] [INFO] [NCLS-JMX-00005] [javax.enterprise.system.jmx] [tid: _ThreadID=199 _ThreadName=Thread-11] [timeMillis: 1793405587864] [levelValue: 800] [[
+  JMXStartupService has started JMXConnector on JMXService URL service:jmx:rmi://0.0.0.0:8686/jndi/rmi://0.0.0.0:8686/jmxrmi]]
+
+[2026-10-31T13:13:08.063+1300] [Payara 6.2025.10] [INFO] [] [org.jvnet.hk2.osgiadapter] [tid: _ThreadID=52 _ThreadName=FelixStartLevel] [timeMillis: 1793405588063] [levelValue: 800] [[
+  Skipping registration of inhabitant for service reference [org.osgi.service.metatype.MetaTypeProvider] as the service object could not be obtained.]]
+
+[2026-10-31T13:13:08.861+1300] [Payara 6.2025.10] [INFO] [] [javax.enterprise.resource.corba.org.glassfish.enterprise.iiop.api] [tid: _ThreadID=163 _ThreadName=admin-thread-pool::admin-listener(1)] [timeMillis: 1793405588861] [levelValue: 800] [[
+  GlassFishORBFactory service initialized.]]
+
+[2026-10-31T13:13:09.608+1300] [Payara 6.2025.10] [INFO] [NCLS-REST-00001] [jakarta.enterprise.admin.rest] [tid: _ThreadID=163 _ThreadName=admin-thread-pool::admin-listener(1)] [timeMillis: 1793405589608] [levelValue: 800] [[
+  Listening to REST requests at context: /management/domain.]]
+
+[2026-10-31T13:13:42.439+1300] [Payara 6.2025.10] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=163 _ThreadName=admin-thread-pool::admin-listener(1)] [timeMillis: 1793405622439] [levelValue: 800] [[
+  No deployment transformer implementation found.]]
+
+[2026-10-31T13:13:43.456+1300] [Payara 6.2025.10] [INFO] [AS-EJB-00054] [jakarta.enterprise.ejb.container] [tid: _ThreadID=163 _ThreadName=admin-thread-pool::admin-listener(1)] [timeMillis: 1793405623456] [levelValue: 800] [[
+  Portable JNDI names for EJB TaskEventPublisher: [java:global/comp713-a3/TaskEventPublisher, java:global/comp713-a3/TaskEventPublisher!nz.ac.aut.comp713.messaging.TaskEventPublisher]]]
+
+[2026-10-31T13:13:47.372+1300] [Payara 6.2025.10] [INFO] [AS-JMS-CORE-00002] [javax.enterprise.resource.jms] [tid: _ThreadID=163 _ThreadName=admin-thread-pool::admin-listener(1)] [timeMillis: 1793405627372] [levelValue: 800] [[
+  ADDRESSLIST in setJmsServiceProvider : mq://localhost:7676/]]
+
+[2026-10-31T13:13:47.373+1300] [Payara 6.2025.10] [INFO] [AS-JMS-CORE-00001] [javax.enterprise.resource.jms] [tid: _ThreadID=163 _ThreadName=admin-thread-pool::admin-listener(1)] [timeMillis: 1793405627373] [levelValue: 800] [[
+  JMS Service Connection URL is : mq://localhost:7676/]]
+
+[2026-10-31T13:13:47.652+1300] [Payara 6.2025.10] [INFO] [] [javax.resourceadapter.mqjmsra.lifecycle] [tid: _ThreadID=163 _ThreadName=admin-thread-pool::admin-listener(1)] [timeMillis: 1793405627652] [levelValue: 800] [[
+  MQJMSRA_RA1101: Eclipse OpenMQ JMS Resource Adapter: Version:  6.5.1  (Build 1-a) Compile:  February 7 2025]]
+
+[2026-10-31T13:13:47.652+1300] [Payara 6.2025.10] [INFO] [] [javax.resourceadapter.mqjmsra.lifecycle] [tid: _ThreadID=163 _ThreadName=admin-thread-pool::admin-listener(1)] [timeMillis: 1793405627652] [levelValue: 800] [[
+  MQJMSRA_RA1101: Eclipse OpenMQ JMS Resource Adapter starting: broker is EMBEDDED, connection mode is Direct]]
+
+[2026-10-31T13:13:47.797+1300] [Payara 6.2025.10] [INFO] [] [imq.log.Logger] [tid: _ThreadID=163 _ThreadName=admin-thread-pool::admin-listener(1)] [timeMillis: 1793405627797] [levelValue: 800] [[
+  [B1002]: An existing property file for imqbroker was not found, no stored properties will be loaded
+]]
+
+[2026-10-31T13:13:49.015+1300] [Payara 6.2025.10] [INFO] [] [javax.resourceadapter.mqjmsra.lifecycle] [tid: _ThreadID=163 _ThreadName=admin-thread-pool::admin-listener(1)] [timeMillis: 1793405629015] [levelValue: 800] [[
+  MQJMSRA_RA1101: Eclipse OpenMQ JMS Resource Adapter Started:EMBEDDED]]
+
+[2026-10-31T13:13:49.565+1300] [Payara 6.2025.10] [INFO] [] [org.glassfish.soteria.servlet.SamRegistrationInstaller] [tid: _ThreadID=163 _ThreadName=admin-thread-pool::admin-listener(1)] [timeMillis: 1793405629565] [levelValue: 800] [[
+  Initializing Soteria 3.0.3.payara-p2 for context '/comp713-a3']]
+
+[2026-10-31T13:13:49.575+1300] [Payara 6.2025.10] [INFO] [] [org.eclipse.krazo.servlet.KrazoContainerInitializer] [tid: _ThreadID=163 _ThreadName=admin-thread-pool::admin-listener(1)] [timeMillis: 1793405629575] [levelValue: 800] [[
+  Eclipse Krazo version 3.0.1 started]]
+
+[2026-10-31T13:13:49.721+1300] [Payara 6.2025.10] [INFO] [] [org.glassfish.tyrus.servlet.TyrusServletContainerInitializer] [tid: _ThreadID=163 _ThreadName=admin-thread-pool::admin-listener(1)] [timeMillis: 1793405629721] [levelValue: 800] [[
+  Registering WebSocket filter for url pattern /*]]
+
+[2026-10-31T13:13:50.900+1300] [Payara 6.2025.10] [INFO] [AS-WEB-GLUE-00172] [jakarta.enterprise.web] [tid: _ThreadID=163 _ThreadName=admin-thread-pool::admin-listener(1)] [timeMillis: 1793405630900] [levelValue: 800] [[
+  Loading application [comp713-a3] at [/comp713-a3]]]
+
+[2026-10-31T13:13:51.187+1300] [Payara 6.2025.10] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=163 _ThreadName=admin-thread-pool::admin-listener(1)] [timeMillis: 1793405631187] [levelValue: 800] [[
+  comp713-a3 was successfully deployed in 10,087 milliseconds.]]
+
+[2026-10-31T13:13:52.280+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=152 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1793405632280] [levelValue: 800] [[
+  request method=GET path=/comp713-a3/api/health status=200 duration_ms=557.04]]
+
+[2026-10-31T13:13:52.484+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=153 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1793405632484] [levelValue: 800] [[
+  request method=GET path=/comp713-a3/api/health status=200 duration_ms=429.75]]
+
+[2026-10-31T13:13:53.904+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=150 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1793405633904] [levelValue: 800] [[
+  request method=GET path=/comp713-a3/ status=200 duration_ms=3.44]]
+
+[2026-10-31T13:13:54.039+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=149 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1793405634039] [levelValue: 800] [[
+  request method=GET path=/comp713-a3/style.css status=200 duration_ms=0.71]]
+
+[2026-10-31T13:13:54.044+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=152 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1793405634044] [levelValue: 800] [[
+  request method=GET path=/comp713-a3/app.js status=200 duration_ms=1.64]]
+
+[2026-10-31T13:15:17.517+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=153 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1793405717517] [levelValue: 800] [[
+  request method=GET path=/comp713-a3/api/health status=200 duration_ms=324.46]]
+
+[2026-10-31T13:15:17.684+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=151 _ThreadName=http-thread-pool::http-listener-1(3)] [timeMillis: 1793405717684] [levelValue: 800] [[
+  request method=GET path=/comp713-a3/api/projects status=401 duration_ms=122.81]]
+
+[2026-10-31T13:15:18.150+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=150 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1793405718150] [levelValue: 800] [[
+  request method=POST path=/comp713-a3/api/auth/login status=401 duration_ms=451.16]]
+
+[2026-10-31T13:15:18.526+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=149 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1793405718526] [levelValue: 800] [[
+  request method=POST path=/comp713-a3/api/auth/login status=200 duration_ms=356.46]]
+
+[2026-10-31T13:15:18.907+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=152 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1793405718907] [levelValue: 800] [[
+  request method=POST path=/comp713-a3/api/auth/login status=200 duration_ms=365.24]]
+
+[2026-10-31T13:15:19.273+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=153 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1793405719273] [levelValue: 800] [[
+  request method=POST path=/comp713-a3/api/auth/login status=200 duration_ms=358.54]]
+
+[2026-10-31T13:15:19.608+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=151 _ThreadName=http-thread-pool::http-listener-1(3)] [timeMillis: 1793405719608] [levelValue: 800] [[
+  request method=POST path=/comp713-a3/api/projects status=403 duration_ms=312.37]]
+
+[2026-10-31T13:15:20.222+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=150 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1793405720222] [levelValue: 800] [[
+  request method=POST path=/comp713-a3/api/projects status=201 duration_ms=601.00]]
+
+[2026-10-31T13:15:20.803+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=149 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1793405720803] [levelValue: 800] [[
+  request method=PATCH path=/comp713-a3/api/projects/2 status=200 duration_ms=573.89]]
+
+[2026-10-31T13:15:21.119+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=152 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1793405721119] [levelValue: 800] [[
+  request method=POST path=/comp713-a3/api/projects status=400 duration_ms=298.65]]
+
+[2026-10-31T13:15:21.755+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=153 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1793405721755] [levelValue: 800] [[
+  request method=POST path=/comp713-a3/api/projects status=409 duration_ms=615.58]]
+
+[2026-10-31T13:15:22.388+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=151 _ThreadName=http-thread-pool::http-listener-1(3)] [timeMillis: 1793405722388] [levelValue: 800] [[
+  request method=GET path=/comp713-a3/api/users status=200 duration_ms=622.68]]
+
+[2026-10-31T13:15:23.024+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=150 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1793405723024] [levelValue: 800] [[
+  request method=POST path=/comp713-a3/api/projects/2/tasks status=201 duration_ms=623.36]]
+
+[2026-10-31T13:15:23.666+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=149 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1793405723666] [levelValue: 800] [[
+  request method=GET path=/comp713-a3/api/projects/2/tasks status=200 duration_ms=637.76]]
+
+[2026-10-31T13:15:24.289+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=152 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1793405724289] [levelValue: 800] [[
+  request method=GET path=/comp713-a3/api/tasks/2 status=403 duration_ms=615.52]]
+
+[2026-10-31T13:15:24.924+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=153 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1793405724924] [levelValue: 800] [[
+  request method=PATCH path=/comp713-a3/api/tasks/2 status=200 duration_ms=626.40]]
+
+[2026-10-31T13:15:25.558+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=151 _ThreadName=http-thread-pool::http-listener-1(3)] [timeMillis: 1793405725558] [levelValue: 800] [[
+  request method=PATCH path=/comp713-a3/api/tasks/2 status=409 duration_ms=618.35]]
+
+[2026-10-31T13:15:26.181+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=150 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1793405726181] [levelValue: 800] [[
+  request method=PATCH path=/comp713-a3/api/tasks/2 status=400 duration_ms=603.74]]
+
+[2026-10-31T13:15:26.811+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=149 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1793405726811] [levelValue: 800] [[
+  request method=GET path=/comp713-a3/api/tasks/2 status=200 duration_ms=613.38]]
+
+[2026-10-31T13:15:27.129+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=152 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1793405727129] [levelValue: 800] [[
+  request method=POST path=/comp713-a3/api/projects status=400 duration_ms=309.64]]
+
+[2026-10-31T13:15:27.206+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=153 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1793405727206] [levelValue: 800] [[
+  request method=GET path=/comp713-a3/ws/tasks status=101 duration_ms=54.79]]
+
+[2026-10-31T13:15:28.159+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=150 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1793405728159] [levelValue: 800] [[
+  request method=PATCH path=/comp713-a3/api/tasks/2 status=200 duration_ms=594.68]]
+
+[2026-10-31T13:15:28.732+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=152 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1793405728732] [levelValue: 800] [[
+  request method=PATCH path=/comp713-a3/api/tasks/2 status=200 duration_ms=563.17]]
+
+[2026-10-31T13:15:29.324+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=153 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1793405729324] [levelValue: 800] [[
+  request method=GET path=/comp713-a3/api/tasks/2 status=200 duration_ms=585.32]]
+
+[2026-10-31T13:15:29.951+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=151 _ThreadName=http-thread-pool::http-listener-1(3)] [timeMillis: 1793405729951] [levelValue: 800] [[
+  request method=PATCH path=/comp713-a3/api/tasks/2 status=200 duration_ms=606.45]]
+
+[2026-10-31T13:15:30.511+1300] [Payara 6.2025.10] [INFO] [] [javax.enterprise.system.core.transaction.com.sun.jts.CosTransactions] [tid: _ThreadID=279 _ThreadName=__ejb-thread-pool5] [timeMillis: 1793405730511] [levelValue: 800] [[
+  JTS5014: Recoverable JTS instance, serverId=[100]]]
+
+[2026-10-31T13:15:30.568+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=150 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1793405730568] [levelValue: 800] [[
+  request method=PATCH path=/comp713-a3/api/tasks/2 status=200 duration_ms=596.98]]
+
+[2026-10-31T13:15:30.578+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=149 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1793405730578] [levelValue: 800] [[
+  request method=GET path=/comp713-a3/ws/tasks status=101 duration_ms=3.22]]
+
+[2026-10-31T13:15:31.140+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.messaging.TaskEventPublisher] [tid: _ThreadID=279 _ThreadName=__ejb-thread-pool5] [timeMillis: 1793405731140] [levelValue: 800] [[
+  BROKER_PUBLISHED eventId=c6ddbade-c179-49a2-877c-4cb3a53af979 queue=TaskEventsQueue]]
+
+[2026-10-31T13:15:31.218+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.messaging.TaskEventPublisher] [tid: _ThreadID=279 _ThreadName=__ejb-thread-pool5] [timeMillis: 1793405731218] [levelValue: 800] [[
+  BROKER_PUBLISHED eventId=cf07dafe-6715-404c-a6e6-9e1abb3284d3 queue=TaskEventsQueue]]
+
+[2026-10-31T13:15:31.429+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=153 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1793405731429] [levelValue: 800] [[
+  request method=GET path=/comp713-a3/api/tasks/2 status=200 duration_ms=556.29]]
+
+[2026-10-31T13:15:32.039+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=150 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1793405732039] [levelValue: 800] [[
+  request method=GET path=/comp713-a3/api/events status=200 duration_ms=587.23]]
+
+[2026-10-31T13:15:32.628+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=149 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1793405732628] [levelValue: 800] [[
+  request method=GET path=/comp713-a3/api/tasks/2 status=200 duration_ms=569.97]]
+
+[2026-10-31T13:15:33.215+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=152 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1793405733215] [levelValue: 800] [[
+  request method=GET path=/comp713-a3/api/tasks/2 status=200 duration_ms=581.68]]
+
+[2026-10-31T13:15:33.810+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=153 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1793405733810] [levelValue: 800] [[
+  request method=GET path=/comp713-a3/api/tasks/2 status=200 duration_ms=590.47]]
+
+[2026-10-31T13:15:34.428+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=151 _ThreadName=http-thread-pool::http-listener-1(3)] [timeMillis: 1793405734428] [levelValue: 800] [[
+  request method=GET path=/comp713-a3/api/tasks/2 status=200 duration_ms=612.51]]
+
+[2026-10-31T13:15:35.030+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=150 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1793405735030] [levelValue: 800] [[
+  request method=GET path=/comp713-a3/api/tasks/2 status=200 duration_ms=582.52]]
+
+[2026-10-31T13:15:35.587+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=149 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1793405735587] [levelValue: 800] [[
+  request method=GET path=/comp713-a3/api/tasks/2 status=200 duration_ms=545.09]]
+
+[2026-10-31T13:15:36.153+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=152 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1793405736153] [levelValue: 800] [[
+  request method=GET path=/comp713-a3/api/tasks/2 status=200 duration_ms=560.88]]
+
+[2026-10-31T13:15:36.751+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=153 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1793405736751] [levelValue: 800] [[
+  request method=GET path=/comp713-a3/api/tasks/2 status=200 duration_ms=585.33]]
+
+[2026-10-31T13:15:37.315+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=151 _ThreadName=http-thread-pool::http-listener-1(3)] [timeMillis: 1793405737315] [levelValue: 800] [[
+  request method=GET path=/comp713-a3/api/tasks/2 status=200 duration_ms=555.95]]
+
+[2026-10-31T13:15:37.906+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=150 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1793405737906] [levelValue: 800] [[
+  request method=GET path=/comp713-a3/api/tasks/2 status=200 duration_ms=574.58]]
+
+[2026-10-31T13:15:38.534+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=149 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1793405738534] [levelValue: 800] [[
+  request method=GET path=/comp713-a3/api/tasks/2 status=200 duration_ms=612.08]]
+
+[2026-10-31T13:15:39.166+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=152 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1793405739166] [levelValue: 800] [[
+  request method=GET path=/comp713-a3/api/tasks/2 status=200 duration_ms=619.98]]
+
+[2026-10-31T13:15:39.270+1300] [Payara 6.2025.10] [INFO] [NCLS-REST-00001] [jakarta.enterprise.admin.rest] [tid: _ThreadID=260 _ThreadName=admin-thread-pool::admin-listener(3)] [timeMillis: 1793405739270] [levelValue: 800] [[
+  Listening to REST requests at context: /command/domain.]]
+
+[2026-10-31T13:15:39.773+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=153 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1793405739773] [levelValue: 800] [[
+  request method=GET path=/comp713-a3/api/tasks/2 status=200 duration_ms=585.56]]
+
+[2026-10-31T13:15:39.795+1300] [Payara 6.2025.10] [SEVERE] [] [jakarta.enterprise.web] [tid: _ThreadID=163 _ThreadName=admin-thread-pool::admin-listener(1)] [timeMillis: 1793405739795] [levelValue: 1000] [[
+  WebModule[/comp713-a3]Servlet nz.ac.aut.comp713.api.RestApplication threw unload() exception
+jakarta.servlet.ServletException: Servlet.destroy() for servlet nz.ac.aut.comp713.api.RestApplication threw exception
+	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1800)
+	at org.apache.catalina.core.StandardWrapper.stop(StandardWrapper.java:2043)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:5942)
+	at com.sun.enterprise.web.WebModule.stop(WebModule.java:649)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1124)
+	at com.sun.enterprise.web.WebContainer.unloadWebModule(WebContainer.java:2020)
+	at com.sun.enterprise.web.WebContainer.unloadWebModule(WebContainer.java:1982)
+	at com.sun.enterprise.web.WebApplication.stop(WebApplication.java:158)
+	at org.glassfish.internal.data.EngineRef.stop(EngineRef.java:176)
+	at org.glassfish.internal.data.ModuleInfo.stop(ModuleInfo.java:328)
+	at org.glassfish.internal.data.ApplicationInfo.stop(ApplicationInfo.java:405)
+	at com.sun.enterprise.v3.server.ApplicationLifecycle.unload(ApplicationLifecycle.java:1385)
+	at com.sun.enterprise.v3.server.ApplicationLifecycle.undeploy(ApplicationLifecycle.java:1425)
+	at org.glassfish.deployment.admin.UndeployCommand.execute(UndeployCommand.java:431)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2$1.run(CommandRunnerImpl.java:556)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2$1.run(CommandRunnerImpl.java:552)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/javax.security.auth.Subject.doAs(Subject.java:453)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2.execute(CommandRunnerImpl.java:551)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$3.run(CommandRunnerImpl.java:582)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$3.run(CommandRunnerImpl.java:574)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/javax.security.auth.Subject.doAs(Subject.java:453)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.doCommand(CommandRunnerImpl.java:573)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.doCommand(CommandRunnerImpl.java:1497)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$ExecutionContext.execute(CommandRunnerImpl.java:1879)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$ExecutionContext.execute(CommandRunnerImpl.java:1755)
+	at org.glassfish.deployment.admin.DeployCommand.handleRedeploy(DeployCommand.java:828)
+	at org.glassfish.deployment.admin.DeployCommand.execute(DeployCommand.java:438)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2$1.run(CommandRunnerImpl.java:556)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2$1.run(CommandRunnerImpl.java:552)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/javax.security.auth.Subject.doAs(Subject.java:453)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2.execute(CommandRunnerImpl.java:551)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$3.run(CommandRunnerImpl.java:582)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$3.run(CommandRunnerImpl.java:574)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/javax.security.auth.Subject.doAs(Subject.java:453)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.doCommand(CommandRunnerImpl.java:573)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.doCommand(CommandRunnerImpl.java:1497)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$ExecutionContext.execute(CommandRunnerImpl.java:1879)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$ExecutionContext.execute(CommandRunnerImpl.java:1755)
+	at org.glassfish.admin.rest.resources.admin.CommandResource.executeCommand(CommandResource.java:409)
+	at org.glassfish.admin.rest.resources.admin.CommandResource.execCommandSimpInMultOut(CommandResource.java:236)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory.lambda$static$0(ResourceMethodInvocationHandlerFactory.java:52)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:146)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:189)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:176)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:93)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:478)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:400)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:81)
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:274)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:248)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:244)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:292)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:274)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:244)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:266)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:253)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:696)
+	at org.glassfish.jersey.grizzly2.httpserver.GrizzlyHttpContainer.service(GrizzlyHttpContainer.java:367)
+	at org.glassfish.admin.rest.adapter.JerseyContainerCommandService$3.service(JerseyContainerCommandService.java:179)
+	at org.glassfish.admin.rest.adapter.RestAdapter.service(RestAdapter.java:189)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:520)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:217)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:174)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:153)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:196)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:88)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:246)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:178)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:118)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:96)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:51)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:510)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:82)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:83)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:101)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:535)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:515)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.IllegalStateException: ServiceLocatorImpl(__HK2_Generated_4,6,360873973) has been shut down
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.checkState(ServiceLocatorImpl.java:2399)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.preDestroy(ServiceLocatorImpl.java:1060)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.preDestroy(ServiceLocatorImpl.java:1052)
+	at org.glassfish.jersey.inject.hk2.AbstractHk2InjectionManager.preDestroy(AbstractHk2InjectionManager.java:175)
+	at org.glassfish.jersey.inject.hk2.ImmediateHk2InjectionManager.preDestroy(ImmediateHk2InjectionManager.java:30)
+	at org.glassfish.jersey.server.ApplicationHandler.onShutdown(ApplicationHandler.java:743)
+	at org.glassfish.jersey.servlet.ServletContainer.destroy(ServletContainer.java:333)
+	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1789)
+	... 83 more
+----- Root Cause -----
+java.lang.IllegalStateException: ServiceLocatorImpl(__HK2_Generated_4,6,360873973) has been shut down
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.checkState(ServiceLocatorImpl.java:2399)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.preDestroy(ServiceLocatorImpl.java:1060)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.preDestroy(ServiceLocatorImpl.java:1052)
+	at org.glassfish.jersey.inject.hk2.AbstractHk2InjectionManager.preDestroy(AbstractHk2InjectionManager.java:175)
+	at org.glassfish.jersey.inject.hk2.ImmediateHk2InjectionManager.preDestroy(ImmediateHk2InjectionManager.java:30)
+	at org.glassfish.jersey.server.ApplicationHandler.onShutdown(ApplicationHandler.java:743)
+	at org.glassfish.jersey.servlet.ServletContainer.destroy(ServletContainer.java:333)
+	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1789)
+	at org.apache.catalina.core.StandardWrapper.stop(StandardWrapper.java:2043)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:5942)
+	at com.sun.enterprise.web.WebModule.stop(WebModule.java:649)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1124)
+	at com.sun.enterprise.web.WebContainer.unloadWebModule(WebContainer.java:2020)
+	at com.sun.enterprise.web.WebContainer.unloadWebModule(WebContainer.java:1982)
+	at com.sun.enterprise.web.WebApplication.stop(WebApplication.java:158)
+	at org.glassfish.internal.data.EngineRef.stop(EngineRef.java:176)
+	at org.glassfish.internal.data.ModuleInfo.stop(ModuleInfo.java:328)
+	at org.glassfish.internal.data.ApplicationInfo.stop(ApplicationInfo.java:405)
+	at com.sun.enterprise.v3.server.ApplicationLifecycle.unload(ApplicationLifecycle.java:1385)
+	at com.sun.enterprise.v3.server.ApplicationLifecycle.undeploy(ApplicationLifecycle.java:1425)
+	at org.glassfish.deployment.admin.UndeployCommand.execute(UndeployCommand.java:431)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2$1.run(CommandRunnerImpl.java:556)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2$1.run(CommandRunnerImpl.java:552)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/javax.security.auth.Subject.doAs(Subject.java:453)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2.execute(CommandRunnerImpl.java:551)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$3.run(CommandRunnerImpl.java:582)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$3.run(CommandRunnerImpl.java:574)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/javax.security.auth.Subject.doAs(Subject.java:453)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.doCommand(CommandRunnerImpl.java:573)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.doCommand(CommandRunnerImpl.java:1497)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$ExecutionContext.execute(CommandRunnerImpl.java:1879)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$ExecutionContext.execute(CommandRunnerImpl.java:1755)
+	at org.glassfish.deployment.admin.DeployCommand.handleRedeploy(DeployCommand.java:828)
+	at org.glassfish.deployment.admin.DeployCommand.execute(DeployCommand.java:438)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2$1.run(CommandRunnerImpl.java:556)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2$1.run(CommandRunnerImpl.java:552)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/javax.security.auth.Subject.doAs(Subject.java:453)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2.execute(CommandRunnerImpl.java:551)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$3.run(CommandRunnerImpl.java:582)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$3.run(CommandRunnerImpl.java:574)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/javax.security.auth.Subject.doAs(Subject.java:453)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.doCommand(CommandRunnerImpl.java:573)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.doCommand(CommandRunnerImpl.java:1497)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$ExecutionContext.execute(CommandRunnerImpl.java:1879)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$ExecutionContext.execute(CommandRunnerImpl.java:1755)
+	at org.glassfish.admin.rest.resources.admin.CommandResource.executeCommand(CommandResource.java:409)
+	at org.glassfish.admin.rest.resources.admin.CommandResource.execCommandSimpInMultOut(CommandResource.java:236)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory.lambda$static$0(ResourceMethodInvocationHandlerFactory.java:52)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:146)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:189)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:176)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:93)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:478)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:400)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:81)
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:274)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:248)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:244)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:292)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:274)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:244)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:266)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:253)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:696)
+	at org.glassfish.jersey.grizzly2.httpserver.GrizzlyHttpContainer.service(GrizzlyHttpContainer.java:367)
+	at org.glassfish.admin.rest.adapter.JerseyContainerCommandService$3.service(JerseyContainerCommandService.java:179)
+	at org.glassfish.admin.rest.adapter.RestAdapter.service(RestAdapter.java:189)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:520)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:217)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:174)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:153)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:196)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:88)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:246)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:178)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:118)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:96)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:51)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:510)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:82)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:83)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:101)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:535)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:515)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]
+
+[2026-10-31T13:15:42.720+1300] [Payara 6.2025.10] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=163 _ThreadName=admin-thread-pool::admin-listener(1)] [timeMillis: 1793405742720] [levelValue: 800] [[
+  No deployment transformer implementation found.]]
+
+[2026-10-31T13:15:43.769+1300] [Payara 6.2025.10] [INFO] [AS-EJB-00054] [jakarta.enterprise.ejb.container] [tid: _ThreadID=163 _ThreadName=admin-thread-pool::admin-listener(1)] [timeMillis: 1793405743769] [levelValue: 800] [[
+  Portable JNDI names for EJB TaskEventPublisher: [java:global/comp713-a3/TaskEventPublisher, java:global/comp713-a3/TaskEventPublisher!nz.ac.aut.comp713.messaging.TaskEventPublisher]]]
+
+[2026-10-31T13:15:46.034+1300] [Payara 6.2025.10] [INFO] [] [org.glassfish.soteria.servlet.SamRegistrationInstaller] [tid: _ThreadID=163 _ThreadName=admin-thread-pool::admin-listener(1)] [timeMillis: 1793405746034] [levelValue: 800] [[
+  Initializing Soteria 3.0.3.payara-p2 for context '/comp713-a3']]
+
+[2026-10-31T13:15:46.040+1300] [Payara 6.2025.10] [INFO] [] [org.eclipse.krazo.servlet.KrazoContainerInitializer] [tid: _ThreadID=163 _ThreadName=admin-thread-pool::admin-listener(1)] [timeMillis: 1793405746040] [levelValue: 800] [[
+  Eclipse Krazo version 3.0.1 started]]
+
+[2026-10-31T13:15:46.061+1300] [Payara 6.2025.10] [INFO] [] [org.glassfish.tyrus.servlet.TyrusServletContainerInitializer] [tid: _ThreadID=163 _ThreadName=admin-thread-pool::admin-listener(1)] [timeMillis: 1793405746061] [levelValue: 800] [[
+  Registering WebSocket filter for url pattern /*]]
+
+[2026-10-31T13:15:47.196+1300] [Payara 6.2025.10] [INFO] [AS-WEB-GLUE-00172] [jakarta.enterprise.web] [tid: _ThreadID=163 _ThreadName=admin-thread-pool::admin-listener(1)] [timeMillis: 1793405747196] [levelValue: 800] [[
+  Loading application [comp713-a3] at [/comp713-a3]]]
+
+[2026-10-31T13:15:47.328+1300] [Payara 6.2025.10] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=163 _ThreadName=admin-thread-pool::admin-listener(1)] [timeMillis: 1793405747328] [levelValue: 800] [[
+  comp713-a3 was successfully deployed in 7,767 milliseconds.]]
+
+[2026-10-31T13:16:10.687+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=149 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1793405770687] [levelValue: 800] [[
+  request method=GET path=/comp713-a3/api/health status=200 duration_ms=507.39]]
+
+[2026-10-31T13:16:10.803+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=152 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1793405770803] [levelValue: 800] [[
+  request method=GET path=/comp713-a3/api/projects status=401 duration_ms=72.99]]
+
+[2026-10-31T13:16:11.277+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=153 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1793405771277] [levelValue: 800] [[
+  request method=POST path=/comp713-a3/api/auth/login status=401 duration_ms=456.16]]
+
+[2026-10-31T13:16:11.676+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=151 _ThreadName=http-thread-pool::http-listener-1(3)] [timeMillis: 1793405771676] [levelValue: 800] [[
+  request method=POST path=/comp713-a3/api/auth/login status=200 duration_ms=391.44]]
+
+[2026-10-31T13:16:12.028+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=150 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1793405772028] [levelValue: 800] [[
+  request method=POST path=/comp713-a3/api/auth/login status=200 duration_ms=345.15]]
+
+[2026-10-31T13:16:12.397+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=149 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1793405772397] [levelValue: 800] [[
+  request method=POST path=/comp713-a3/api/auth/login status=200 duration_ms=363.31]]
+
+[2026-10-31T13:16:12.737+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=152 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1793405772737] [levelValue: 800] [[
+  request method=POST path=/comp713-a3/api/projects status=403 duration_ms=317.17]]
+
+[2026-10-31T13:16:13.361+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=153 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1793405773361] [levelValue: 800] [[
+  request method=POST path=/comp713-a3/api/projects status=201 duration_ms=611.28]]
+
+[2026-10-31T13:16:14.018+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=151 _ThreadName=http-thread-pool::http-listener-1(3)] [timeMillis: 1793405774018] [levelValue: 800] [[
+  request method=PATCH path=/comp713-a3/api/projects/4 status=200 duration_ms=641.36]]
+
+[2026-10-31T13:16:14.354+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=150 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1793405774354] [levelValue: 800] [[
+  request method=POST path=/comp713-a3/api/projects status=400 duration_ms=322.12]]
+
+[2026-10-31T13:16:15.010+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=149 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1793405775010] [levelValue: 800] [[
+  request method=POST path=/comp713-a3/api/projects status=409 duration_ms=633.17]]
+
+[2026-10-31T13:16:15.606+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=152 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1793405775606] [levelValue: 800] [[
+  request method=GET path=/comp713-a3/api/users status=200 duration_ms=585.16]]
+
+[2026-10-31T13:16:16.213+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=153 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1793405776213] [levelValue: 800] [[
+  request method=POST path=/comp713-a3/api/projects/4/tasks status=201 duration_ms=600.01]]
+
+[2026-10-31T13:16:16.877+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=151 _ThreadName=http-thread-pool::http-listener-1(3)] [timeMillis: 1793405776877] [levelValue: 800] [[
+  request method=GET path=/comp713-a3/api/projects/4/tasks status=200 duration_ms=652.82]]
+
+[2026-10-31T13:16:17.515+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=150 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1793405777515] [levelValue: 800] [[
+  request method=GET path=/comp713-a3/api/tasks/3 status=403 duration_ms=618.86]]
+
+[2026-10-31T13:16:18.127+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=149 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1793405778127] [levelValue: 800] [[
+  request method=PATCH path=/comp713-a3/api/tasks/3 status=200 duration_ms=592.96]]
+
+[2026-10-31T13:16:18.741+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=152 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1793405778741] [levelValue: 800] [[
+  request method=PATCH path=/comp713-a3/api/tasks/3 status=409 duration_ms=597.69]]
+
+[2026-10-31T13:16:19.369+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=153 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1793405779369] [levelValue: 800] [[
+  request method=PATCH path=/comp713-a3/api/tasks/3 status=400 duration_ms=604.13]]
+
+[2026-10-31T13:16:20.112+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=151 _ThreadName=http-thread-pool::http-listener-1(3)] [timeMillis: 1793405780112] [levelValue: 800] [[
+  request method=GET path=/comp713-a3/api/tasks/3 status=200 duration_ms=724.18]]
+
+[2026-10-31T13:16:20.237+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=150 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1793405780237] [levelValue: 800] [[
+  request method=POST path=/comp713-a3/api/projects status=400 duration_ms=116.27]]
+
+[2026-10-31T13:16:20.285+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=149 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1793405780285] [levelValue: 800] [[
+  request method=GET path=/comp713-a3/ws/tasks status=101 duration_ms=30.16]]
+
+[2026-10-31T13:16:21.391+1300] [Payara 6.2025.10] [INFO] [] [nz.ac.aut.comp713.api.RequestLoggingFilter] [tid: _ThreadID=153 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1793405781391] [levelValue: 800] [[
+  request method=PATCH path=/comp713-a3/api/tasks/3 status=200 duration_ms=634.02]]
+

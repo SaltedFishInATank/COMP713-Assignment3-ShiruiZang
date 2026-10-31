@@ -1,0 +1,4 @@
+Fieldwork Assessment 3 / 3.0.0
+Final local tag: assessment3-local-v3.0.0
+Public repository: not published
+Initial implementation commit: f9ab1ec54be78a1695f5f17721a26c235998e415

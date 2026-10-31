@@ -1,0 +1,12 @@
+{
+  "testedAt": "2026-10-31T13:24:03.8794207+13:00",
+  "broker": "localhost:7676",
+  "data": "C:\\Users\\zsr20\\Study\\2026\\Semester 2\\Distributed and Mobile System\\Assessment3\\consumer\\data\\android-gps-broker-verification",
+  "eventId": "40be3c44-4963-4562-b35e-def2b911edfb",
+  "retry": "passed",
+  "redelivery": "passed",
+  "acknowledgement": "passed",
+  "duplicateSuppression": "passed",
+  "persistence": "passed",
+  "count": "PERSISTED_NOTIFICATIONS count=1"
+}

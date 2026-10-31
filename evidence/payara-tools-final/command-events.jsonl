@@ -1,0 +1,12 @@
+{"time":"2026-10-31T00:18:52.834Z","event":"test-host-started","vscodeVersion":"1.144.0","workspace":["c:\\Users\\zsr20\\Study\\2026\\Semester 2\\Distributed and Mobile System\\Assessment3\\backend"]}
+{"time":"2026-10-31T00:18:52.838Z","event":"process-local-Maven-repository","path":"C:\\Users\\zsr20\\Study\\2026\\Semester 2\\Distributed and Mobile System\\.work\\m2"}
+{"time":"2026-10-31T00:18:55.218Z","event":"installed-extension-activated","toolsVersion":"1.7.0","server":{"name":"COMP713 Payara 6.2025.10","domain":"domain1","path":"C:\\Users\\zsr20\\Study\\2026\\Semester 2\\Distributed and Mobile System\\.work\\tools\\payara6","jdkHome":"C:\\Program Files\\Android\\openjdk\\jdk-21.0.8","httpPort":8080,"adminPort":4848},"javaExtensions":[{"id":"redhat.java","version":"1.58.0"},{"id":"vscjava.vscode-gradle","version":"3.18.1"},{"id":"vscjava.vscode-java-debug","version":"0.60.0"},{"id":"vscjava.vscode-java-dependency","version":"0.27.7"},{"id":"vscjava.vscode-java-pack","version":"0.31.2"},{"id":"vscjava.vscode-java-test","version":"0.47.0"},{"id":"vscjava.vscode-maven","version":"0.46.0"}]}
+{"time":"2026-10-31T00:18:55.254Z","event":"health-before-commands","error":"connect ECONNREFUSED 127.0.0.1:8080"}
+{"time":"2026-10-31T00:18:55.279Z","event":"registered-command-invoked","id":"payara.server.start"}
+{"time":"2026-10-31T00:19:36.672Z","event":"domain-started-through-Payara-Tools","success":true}
+{"time":"2026-10-31T00:19:36.676Z","event":"registered-command-invoked","id":"payara.server.refresh.all"}
+{"time":"2026-10-31T00:19:41.714Z","event":"registered-command-invoked","id":"payara.server.app.deploy"}
+{"time":"2026-10-31T00:20:04.988Z","event":"fresh-domain-log-confirms-Payara-Tools-deployment","success":true}
+{"time":"2026-10-31T00:20:05.355Z","event":"application-responds-after-Payara-Tools-deploy","success":true}
+{"time":"2026-10-31T00:20:05.358Z","event":"fresh-domain-log-confirms-deployment","success":true}
+{"time":"2026-10-31T00:20:05.360Z","event":"ready-for-API-tests","health":{"status":200,"body":"{\"data\":{\"status\":\"ok\",\"database\":\"ok\",\"application\":\"comp713-a3\"}}"},"resultFile":"c:\\Users\\zsr20\\Study\\2026\\Semester 2\\Distributed and Mobile System\\.work\\a3-payara-final\\result.json"}

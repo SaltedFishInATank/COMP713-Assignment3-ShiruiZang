@@ -1,0 +1,17 @@
+{
+  "observedAt": "2026-10-31T00:28:53.863Z",
+  "healthUrl": "http://127.0.0.1:8080/comp713-a3/api/health",
+  "httpStatus": 200,
+  "body": {
+    "data": {
+      "status": "ok",
+      "database": "ok",
+      "application": "comp713-a3"
+    }
+  },
+  "serverHeader": "Payara Server 6.2025.10",
+  "consumerPid": 9780,
+  "consumerLog": "consumer/data/consumer-running.log",
+  "consumerStopCommand": "Stop-Process -Id 9780",
+  "androidEmulator": "Stopped after actual successful runtime tests; SDK/AVD retained under .work"
+}

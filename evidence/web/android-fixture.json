@@ -1,0 +1,29 @@
+{
+  "createdAt": "2026-10-31T00:21:15.221Z",
+  "projectId": 9,
+  "taskId": 6,
+  "title": "Android field evidence 1793406074989",
+  "status": "todo",
+  "assignedTo": 2,
+  "project": {
+    "id": 9,
+    "name": "Android verification 1793406074989",
+    "description": "Real emulator worker to open coordinator web browser verification.",
+    "createdAt": "2026-10-31T00:21:15.186723800Z"
+  },
+  "task": {
+    "id": 6,
+    "projectId": 9,
+    "title": "Android field evidence 1793406074989",
+    "description": "Native Android acceptance and submission must update the open web client without refresh.",
+    "status": "todo",
+    "completionNote": "",
+    "version": 0,
+    "createdAt": "2026-10-31T00:21:15.213409500Z",
+    "updatedAt": "2026-10-31T00:21:15.213409500Z",
+    "assignedTo": 2,
+    "assigneeName": "Alex / Field worker",
+    "latitude": null,
+    "longitude": null
+  }
+}

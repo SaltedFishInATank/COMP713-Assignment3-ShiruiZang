@@ -1,0 +1,105 @@
+{
+  "startedAt": "2026-10-31T00:22:18.614Z",
+  "base": "http://localhost:8080/comp713-a3/",
+  "checks": [
+    {
+      "name": "01 Real web application and handled invalid login",
+      "status": "PASS",
+      "durationMs": 640,
+      "invalidLoginHttpStatus": 401,
+      "errorDisplayed": "Sign in with a valid account. Your session may have expired."
+    },
+    {
+      "name": "02 Two isolated browser users authenticated over Payara",
+      "status": "PASS",
+      "durationMs": 1110,
+      "coordinatorWebSocketReady": 1,
+      "workerWebSocketReady": 1
+    },
+    {
+      "name": "03 Coordinator creates project through visible web form",
+      "status": "PASS",
+      "durationMs": 641,
+      "projectId": 10,
+      "projectName": "Browser fieldwork 1793406138615"
+    },
+    {
+      "name": "04 Assignment appears in open worker browser through WebSocket",
+      "status": "PASS",
+      "durationMs": 714,
+      "taskId": 7,
+      "taskTitle": "Inspect campus access 1793406138615",
+      "workerReceivedPush": true,
+      "workerPageReloaded": false
+    },
+    {
+      "name": "05 Worker accepts and coordinator board updates without refresh",
+      "status": "PASS",
+      "durationMs": 369,
+      "taskStatus": "in_progress",
+      "receivedPush": true,
+      "coordinatorPageReloaded": false
+    },
+    {
+      "name": "06 Submission field error is displayed and recoverable",
+      "status": "PASS",
+      "durationMs": 218,
+      "httpStatus": 400,
+      "errorDisplayed": "completionNote must contain 1 to 1000 characters."
+    },
+    {
+      "name": "07 Worker submits location evidence; coordinator receives it live",
+      "status": "PASS",
+      "durationMs": 532,
+      "taskStatus": "submitted",
+      "latitude": -36.8485,
+      "longitude": 174.7633,
+      "coordinatorReceivedPush": true,
+      "coordinatorPageReloaded": false
+    },
+    {
+      "name": "08 Coordinator requests rework and worker receives shared state",
+      "status": "PASS",
+      "durationMs": 477,
+      "taskStatus": "in_progress",
+      "workerReceivedPush": true
+    },
+    {
+      "name": "09 Disconnection and reconnect button restore missed state",
+      "status": "PASS",
+      "durationMs": 651,
+      "interruption": "Browser offline emulation plus explicit close of existing real WebSocket",
+      "missedStateRestored": true,
+      "authenticatedReconnect": true,
+      "coordinatorPageReloaded": false
+    },
+    {
+      "name": "10 Coordinator approves and worker sees approval live",
+      "status": "PASS",
+      "durationMs": 687,
+      "taskId": 7,
+      "version": 5,
+      "workerReceivedPush": true,
+      "taskStatus": "done"
+    },
+    {
+      "name": "11 No browser script errors or unexpected API server failures",
+      "status": "PASS",
+      "durationMs": 3,
+      "coordinatorMainNavigations": 1,
+      "workerMainNavigations": 1,
+      "coordinatorTaskPushes": 5,
+      "workerTaskPushes": 6
+    }
+  ],
+  "browser": "155.0.8059.80",
+  "roles": [
+    "coordinator",
+    "worker"
+  ],
+  "status": "PASS",
+  "projectId": 10,
+  "taskId": 7,
+  "completedAt": "2026-10-31T00:22:26.1Z",
+  "reportingCorrection": "Approval domain status renamed taskStatus; check passed all assertions during the recorded run."
+}

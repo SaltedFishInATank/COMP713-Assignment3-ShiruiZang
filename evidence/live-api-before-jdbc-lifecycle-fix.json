@@ -1,0 +1,96 @@
+{
+  "startedAt": "2026-10-31T00:16:09.900Z",
+  "base": "http://localhost:8080/comp713-a3/api/",
+  "checks": [
+    {
+      "name": "01 Payara health and real database",
+      "status": "PASS",
+      "durationMs": 802,
+      "response": {
+        "data": {
+          "status": "ok",
+          "database": "ok",
+          "application": "comp713-a3"
+        }
+      }
+    },
+    {
+      "name": "02 Unauthorized and invalid credentials",
+      "status": "PASS",
+      "durationMs": 554
+    },
+    {
+      "name": "03 Coordinator and two worker sessions",
+      "status": "PASS",
+      "durationMs": 1119
+    },
+    {
+      "name": "04 Role enforcement",
+      "status": "PASS",
+      "durationMs": 338
+    },
+    {
+      "name": "05 Retained project CRUD and validation",
+      "status": "PASS",
+      "durationMs": 2273
+    },
+    {
+      "name": "06 Assignment visible to correct worker",
+      "status": "PASS",
+      "durationMs": 2501
+    },
+    {
+      "name": "07 Worker accepts; stale version gives 409",
+      "status": "PASS",
+      "durationMs": 1225
+    },
+    {
+      "name": "08 Invalid location rolls back and malformed JSON rejected",
+      "status": "PASS",
+      "durationMs": 1494
+    },
+    {
+      "name": "09 Real WebSocket push on worker submission",
+      "status": "PASS",
+      "durationMs": 1155,
+      "event": "task.changed",
+      "latencyMs": 637.5467000000008
+    },
+    {
+      "name": "10 Coordinator requests rework; worker sees it",
+      "status": "PASS",
+      "durationMs": 1486
+    },
+    {
+      "name": "11 Resubmit and coordinator approval",
+      "status": "PASS",
+      "durationMs": 1244
+    },
+    {
+      "name": "12 WebSocket reconnection restores authoritative state",
+      "status": "PASS",
+      "durationMs": 931
+    },
+    {
+      "name": "13 Durable outbox published to OpenMQ",
+      "status": "PASS",
+      "durationMs": 2305,
+      "events": [
+        {
+          "eventId": "97b69261-5473-4d80-a666-c17f60816546",
+          "published": true
+        },
+        {
+          "eventId": "c52546be-09c2-4f01-87fc-23181e675551",
+          "published": true
+        }
+      ]
+    },
+    {
+      "name": "14 Representative API response time",
+      "status": "FAIL",
+      "error": "Error: p95 699.8090999999986ms exceeds 500ms\n    at file:///C:/Users/zsr20/Study/2026/Semester%202/Distributed%20and%20Mobile%20System/Assessment3/scripts/test-live.mjs:24:295\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async check (file:///C:/Users/zsr20/Study/2026/Semester%202/Distributed%20and%20Mobile%20System/Assessment3/scripts/test-live.mjs:7:78)\n    at async file:///C:/Users/zsr20/Study/2026/Semester%202/Distributed%20and%20Mobile%20System/Assessment3/scripts/test-live.mjs:24:1"
+    }
+  ],
+  "status": "FAIL"
+}

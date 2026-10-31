@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: nz.ac.aut.comp713.consumer.ConsumerStoreTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.307 s -- in nz.ac.aut.comp713.consumer.ConsumerStoreTest

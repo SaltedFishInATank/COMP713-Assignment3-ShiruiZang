@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "eventId": "d885424a-e78e-4e34-a6a8-d5c60d7f8e50",
+  "broker": "localhost:7676",
+  "data": "consumer/data/live-crash-window",
+  "injection": "after H2 business result commit, before JMS acknowledgement",
+  "attempts": 2,
+  "redeliveries": 1,
+  "duplicatesSuppressed": 1,
+  "persistedNotifications": 1,
+  "acknowledged": true,
+  "source": "crash-window.log"
+}

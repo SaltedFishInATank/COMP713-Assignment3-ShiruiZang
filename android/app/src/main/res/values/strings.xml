@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FieldTasks</string>
+    <string name="refresh">Refresh</string>
+    <string name="sign_out">Sign out</string>
+    <string name="location_denied">Location permission denied. Enter the site coordinates manually. You can enable permission in Android Settings.</string>
+    <string name="location_disabled">Device location is off or unavailable. Enable it in Settings, or enter coordinates manually.</string>
+    <string name="location_finding">Finding your location… Allow up to 20 seconds. You can also enter coordinates manually.</string>
+    <string name="location_provider_disabled">Location provider disabled. Enter the site coordinates manually.</string>
+    <string name="location_timeout">No location fix after 20 seconds. Try outdoors, or enter the site coordinates manually.</string>
+    <string name="location_changed_permission">Location permission changed. Try again or enter coordinates manually.</string>
+    <string name="location_unavailable">Location unavailable. Enter coordinates manually.</string>
+    <string name="location_paused">Location capture paused. Tap Use device location to try again, or enter coordinates manually.</string>
+</resources>

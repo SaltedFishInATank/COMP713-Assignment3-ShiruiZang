@@ -1,0 +1,34 @@
+INSTRUMENTATION_STATUS: stream=Created real coordinator assignment #6
+
+INSTRUMENTATION_STATUS_CODE: 0
+s_glBindAttribLocation: bind attrib 0 name position
+s_glBindAttribLocation: bind attrib 1 name color
+s_glBindAttribLocation: bind attrib 2 name localCoord
+INSTRUMENTATION_STATUS: stream=Native invalid-password HTTP401 displayed the server error
+
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: stream=Native login and server-filtered assignment list passed
+
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: stream=Native accept persisted with version 1
+
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: stream=Real HTTP409 reloaded server state and retained the unsent evidence draft
+
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: stream=Native note/coordinate submission persisted in Payara's database
+
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: stream=Coordinator approval displayed after native refresh
+
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: stream=Permission grant, fresh LocationManager fix and GPS-backed native submission passed; task #8
+
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_RESULT: gpsTaskId=8
+INSTRUMENTATION_RESULT: projectId=9
+INSTRUMENTATION_RESULT: status=passed
+INSTRUMENTATION_RESULT: stream=PASS: native login, assigned list, accept, permission denial/manual coordinates, real409 recovery, submit, coordinator approval, permission grant and fresh device GPS submission. Project 9, tasks 6/8. Screenshots: externalFilesDir/evidence.
+
+INSTRUMENTATION_RESULT: taskId=6
+INSTRUMENTATION_CODE: -1

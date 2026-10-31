@@ -1,0 +1,11 @@
+2026-10-31T00:21:46.931833600Z CONSUMER_STARTED queue=TaskEventsQueue broker=localhost:7676 data=C:\Users\zsr20\Study\2026\Semester 2\Distributed and Mobile System\.\Assessment3\consumer\data\live-broker-verification
+2026-10-31T00:21:47.536319900Z BROKER_CONNECTED acknowledgement=SESSION_TRANSACTED
+2026-10-31T00:21:47.679029500Z RECEIVED eventId=f72a62ce-c759-47b0-9708-faf8aa7524ee redelivered=false brokerDeliveryCount=1 persistedAttempts=1
+2026-10-31T00:21:47.811466500Z RETRY_ROLLBACK eventId=f72a62ce-c759-47b0-9708-faf8aa7524ee reason=Injected processing failure before database commit.
+2026-10-31T00:21:48.179490700Z RECEIVED eventId=f72a62ce-c759-47b0-9708-faf8aa7524ee redelivered=true brokerDeliveryCount=2 persistedAttempts=2
+2026-10-31T00:21:48.258355600Z NOTIFICATION_CREATED eventId=f72a62ce-c759-47b0-9708-faf8aa7524ee Review needed: task #4 "Inspect science building 1793406020116" in project #6 submitted by worker 2. Rework complete.
+2026-10-31T00:21:48.259389700Z ACK_COMMIT eventId=f72a62ce-c759-47b0-9708-faf8aa7524ee notificationsCreated=1
+2026-10-31T00:21:48.272057100Z CONSUMER_STOPPED acceptedDeliveries=1
+PERSISTED_NOTIFICATIONS count=1
+DELIVERY eventId=f72a62ce-c759-47b0-9708-faf8aa7524ee attempts=2 redeliveries=1 duplicates=0 outcome=STORED
+NOTIFICATION eventId=f72a62ce-c759-47b0-9708-faf8aa7524ee Review needed: task #4 "Inspect science building 1793406020116" in project #6 submitted by worker 2. Rework complete.

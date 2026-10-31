@@ -1,0 +1,3 @@
+PERSISTED_NOTIFICATIONS count=1
+DELIVERY eventId=f72a62ce-c759-47b0-9708-faf8aa7524ee attempts=3 redeliveries=1 duplicates=1 outcome=DUPLICATE_SUPPRESSED
+NOTIFICATION eventId=f72a62ce-c759-47b0-9708-faf8aa7524ee Review needed: task #4 "Inspect science building 1793406020116" in project #6 submitted by worker 2. Rework complete.

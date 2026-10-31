@@ -1,0 +1,15 @@
+{
+  "eventId": "40be3c44-4963-4562-b35e-def2b911edfb",
+  "published": true,
+  "createdAt": "2026-10-31T00:23:17.541977500Z",
+  "event": {
+    "eventId": "40be3c44-4963-4562-b35e-def2b911edfb",
+    "type": "task.submitted",
+    "taskId": 8,
+    "projectId": 9,
+    "title": "Android GPS evidence 1793406166292",
+    "workerId": 2,
+    "completionNote": "Fresh device GPS captured on the Android14 emulator at the field site.",
+    "occurredAt": "2026-10-31T00:23:17.541977500Z"
+  }
+}

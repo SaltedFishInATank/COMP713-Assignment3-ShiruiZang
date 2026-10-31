@@ -1,0 +1,51 @@
+Access is denied.
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< nz.ac.aut.comp713:task-notification-consumer >------------
+[INFO] Building Independent task notification consumer 3.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ task-notification-consumer ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ task-notification-consumer ---
+[INFO] skip non existing resourceDirectory C:\Users\zsr20\Study\2026\Semester 2\Distributed and Mobile System\.work\a3-source-reproduction\consumer\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ task-notification-consumer ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 3 source files with javac [debug release 17] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ task-notification-consumer ---
+[INFO] skip non existing resourceDirectory C:\Users\zsr20\Study\2026\Semester 2\Distributed and Mobile System\.work\a3-source-reproduction\consumer\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ task-notification-consumer ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 1 source file with javac [debug release 17] to target\test-classes
+[INFO] 
+[INFO] --- surefire:3.5.2:test (default-test) @ task-notification-consumer ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running nz.ac.aut.comp713.consumer.ConsumerStoreTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.460 s -- in nz.ac.aut.comp713.consumer.ConsumerStoreTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jar:3.4.2:jar (default-jar) @ task-notification-consumer ---
+[INFO] Building jar: C:\Users\zsr20\Study\2026\Semester 2\Distributed and Mobile System\.work\a3-source-reproduction\consumer\target\task-notification-consumer.jar
+[INFO] 
+[INFO] --- dependency:3.7.0:copy-dependencies (runtime-libraries) @ task-notification-consumer ---
+[INFO] Copying artifact 'com.h2database:h2:jar:2.3.232:compile' (C:\Users\zsr20\Study\2026\Semester 2\Distributed and Mobile System\.work\m2\com\h2database\h2\2.3.232\h2-2.3.232.jar) to C:\Users\zsr20\Study\2026\Semester 2\Distributed and Mobile System\.work\a3-source-reproduction\consumer\target\lib\h2-2.3.232.jar
+[INFO] Copying artifact 'org.eclipse.parsson:parsson:jar:1.1.7:compile' (C:\Users\zsr20\Study\2026\Semester 2\Distributed and Mobile System\.work\m2\org\eclipse\parsson\parsson\1.1.7\parsson-1.1.7.jar) to C:\Users\zsr20\Study\2026\Semester 2\Distributed and Mobile System\.work\a3-source-reproduction\consumer\target\lib\parsson-1.1.7.jar
+[INFO] Copying artifact 'jakarta.json:jakarta.json-api:jar:2.1.3:compile' (C:\Users\zsr20\Study\2026\Semester 2\Distributed and Mobile System\.work\m2\jakarta\json\jakarta.json-api\2.1.3\jakarta.json-api-2.1.3.jar) to C:\Users\zsr20\Study\2026\Semester 2\Distributed and Mobile System\.work\a3-source-reproduction\consumer\target\lib\jakarta.json-api-2.1.3.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  13.206 s
+[INFO] Finished at: 2026-10-31T13:26:34+13:00
+[INFO] ------------------------------------------------------------------------

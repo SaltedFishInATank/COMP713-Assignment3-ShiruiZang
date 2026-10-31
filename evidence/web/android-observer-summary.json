@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "startedAtUtc": "2026-10-31T00:21:21.085Z",
+  "completedAtUtc": "2026-10-31T00:23:03.664Z",
+  "sourceVersion": "f9ab1ec54be78a1695f5f17721a26c235998e415",
+  "base": "http://localhost:8080/comp713-a3/",
+  "projectId": 9,
+  "taskId": 6,
+  "title": "Android field evidence 1793406074989",
+  "initialState": "TO DO",
+  "observedTransitions": [
+    {
+      "state": "IN PROGRESS",
+      "observedDomAtUtc": "2026-10-31T00:22:53.181Z",
+      "precedingTaskChangedFrameAtUtc": "2026-10-31T00:22:53.046Z",
+      "frameToDomMs": 135.0,
+      "screenshot": "android-live-in-progress.png"
+    },
+    {
+      "state": "AWAITING REVIEW",
+      "observedDomAtUtc": "2026-10-31T00:23:03.354Z",
+      "precedingTaskChangedFrameAtUtc": "2026-10-31T00:23:03.268Z",
+      "frameToDomMs": 86.0,
+      "screenshot": "android-live-awaiting-review.png"
+    }
+  ],
+  "mainNavigations": 1,
+  "pageReloaded": false,
+  "displayedNativeEvidence": "Field evidenceAndroid emulator inspected site; entrance is clear and signage is intact.Location: -36.8485, 174.7633",
+  "totalTaskChangedBroadcasts": 9,
+  "broadcastCountScope": "Includes other simultaneous workflow broadcasts; exact task DOM state transitions establish native integration.",
+  "browserScriptErrors": [],
+  "source": "android-observer-result.json",
+  "nativeSource": "../../android/evidence/native-runtime.log",
+  "evidenceScreenshot": "android-live-submitted-evidence.png"
+}

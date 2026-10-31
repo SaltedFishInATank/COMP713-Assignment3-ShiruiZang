@@ -1,0 +1,52 @@
+Java Platform: C:\Program Files\Android\openjdk\jdk-21.0.8
+> C:\PROGRA~1\NetBeans-25\netbeans\java\maven\bin\mvn.cmd -B -ntp clean verify
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< nz.ac.aut.comp713:project-task-manager >---------------
+[INFO] Building COMP713 Fieldwork Assessment 3 3.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ project-task-manager ---
+[INFO] Deleting c:\Users\zsr20\Study\2026\Semester 2\Distributed and Mobile System\Assessment3\backend\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ project-task-manager ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ project-task-manager ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 20 source files with javac [debug release 21] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ project-task-manager ---
+[INFO] skip non existing resourceDirectory c:\Users\zsr20\Study\2026\Semester 2\Distributed and Mobile System\Assessment3\backend\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ project-task-manager ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 1 source file with javac [debug release 21] to target\test-classes
+[INFO] 
+[INFO] --- surefire:3.5.2:test (default-test) @ project-task-manager ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running nz.ac.aut.comp713.WorkflowTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.80 s -- in nz.ac.aut.comp713.WorkflowTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- war:3.4.0:war (default-war) @ project-task-manager ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [project-task-manager] in [c:\Users\zsr20\Study\2026\Semester 2\Distributed and Mobile System\Assessment3\backend\target\comp713-a3]
+[INFO] Processing war project
+[INFO] Copying webapp resources [c:\Users\zsr20\Study\2026\Semester 2\Distributed and Mobile System\Assessment3\backend\src\main\webapp]
+[INFO] Building war: c:\Users\zsr20\Study\2026\Semester 2\Distributed and Mobile System\Assessment3\backend\target\comp713-a3.war
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  22.731 s
+[INFO] Finished at: 2026-10-31T13:13:40+13:00
+[INFO] ------------------------------------------------------------------------

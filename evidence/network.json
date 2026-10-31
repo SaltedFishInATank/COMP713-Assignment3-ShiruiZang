@@ -1,0 +1,13 @@
+{
+  "observedOn": "2026-10-31 Pacific/Auckland",
+  "interface": "Wi-Fi 6",
+  "ipv4": "192.168.1.12",
+  "apiForPhysicalDevice": "http://192.168.1.12:8080/comp713-a3/api/",
+  "listeningPorts": [
+    8080,
+    4848,
+    7676
+  ],
+  "payaraPid": 25856,
+  "physicalDeviceConnectivityTested": false
+}

@@ -1,0 +1,17 @@
+**/target/
+**/build/
+**/.gradle/
+**/.idea/
+**/local.properties
+**/*.mv.db
+**/*.trace.db
+**/data/
+*.log.tmp
+
+**/dist/
+reports/*.pdf
+
+*.apk
+*.war
+evidence/assessment3-development.bundle
+evidence/git-history.txt

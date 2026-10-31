@@ -1,0 +1,20 @@
+{
+  "projectId": 6,
+  "taskId": 4,
+  "task": {
+    "id": 4,
+    "projectId": 6,
+    "title": "Inspect science building 1793406020116",
+    "description": "Live verification task",
+    "status": "done",
+    "completionNote": "Rework complete.",
+    "version": 5,
+    "createdAt": "2026-10-31T00:20:20.157963100Z",
+    "updatedAt": "2026-10-31T00:20:20.723202200Z",
+    "assignedTo": 2,
+    "assigneeName": "Alex / Field worker",
+    "latitude": -36.85,
+    "longitude": 174.76
+  },
+  "recordedAt": "2026-10-31T00:20:27.461Z"
+}

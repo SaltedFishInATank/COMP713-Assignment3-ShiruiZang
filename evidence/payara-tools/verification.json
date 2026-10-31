@@ -1,0 +1,77 @@
+{
+  "startedAt": "2026-10-31T00:12:38.532Z",
+  "commands": [
+    {
+      "id": "payara.server.start",
+      "invokedAt": "2026-10-31T00:12:40.494Z"
+    },
+    {
+      "id": "payara.server.refresh.all",
+      "invokedAt": "2026-10-31T00:13:09.800Z"
+    },
+    {
+      "id": "payara.server.app.deploy",
+      "invokedAt": "2026-10-31T00:13:14.823Z"
+    }
+  ],
+  "status": "passed",
+  "scope": "Actual installed Payara Tools commands inside a real VS Code extension host; registration seeded in an isolated test profile.",
+  "vscodeVersion": "1.144.0",
+  "payaraToolsVersion": "1.7.0",
+  "payaraExtensionPath": "C:\\Users\\zsr20\\.vscode\\extensions\\payara.payara-vscode-1.7.0",
+  "javaExtensions": [
+    {
+      "id": "redhat.java",
+      "version": "1.58.0"
+    },
+    {
+      "id": "vscjava.vscode-gradle",
+      "version": "3.18.1"
+    },
+    {
+      "id": "vscjava.vscode-java-debug",
+      "version": "0.60.0"
+    },
+    {
+      "id": "vscjava.vscode-java-dependency",
+      "version": "0.27.7"
+    },
+    {
+      "id": "vscjava.vscode-java-pack",
+      "version": "0.31.2"
+    },
+    {
+      "id": "vscjava.vscode-java-test",
+      "version": "0.47.0"
+    },
+    {
+      "id": "vscjava.vscode-maven",
+      "version": "0.46.0"
+    }
+  ],
+  "server": {
+    "name": "COMP713 Payara 6.2025.10",
+    "domain": "domain1",
+    "path": "C:\\Users\\zsr20\\Study\\2026\\Semester 2\\Distributed and Mobile System\\.work\\tools\\payara6",
+    "jdkHome": "C:\\Program Files\\Android\\openjdk\\jdk-21.0.8",
+    "httpPort": 8080,
+    "adminPort": 4848
+  },
+  "startStatus": "Started by payara.server.start inside VS Code.",
+  "deployment": {
+    "command": "payara.server.app.deploy",
+    "invokedAt": "2026-10-31T00:13:14.822Z",
+    "healthUrl": "http://localhost:8080/comp713-a3/api/health",
+    "health": {
+      "status": 200,
+      "body": "{\"data\":{\"status\":\"ok\",\"database\":\"ok\",\"application\":\"comp713-a3\"}}"
+    },
+    "serverLog": "C:\\Users\\zsr20\\Study\\2026\\Semester 2\\Distributed and Mobile System\\.work\\tools\\payara6\\glassfish\\domains\\domain1\\logs\\server.log",
+    "deploymentLog": [
+      "  Loading application [comp713-a3] at [/comp713-a3]]]",
+      "  comp713-a3 was successfully deployed in 10,087 milliseconds.]]"
+    ],
+    "buildLogFile": "c:\\Users\\zsr20\\Study\\2026\\Semester 2\\Distributed and Mobile System\\.work\\a3-payara-tools-retry\\payara-tools-build.log"
+  },
+  "completedAt": "2026-10-31T00:13:52.292Z"
+}

@@ -1,0 +1,96 @@
+{
+  "startedAt": "2026-10-31T00:15:16.969Z",
+  "base": "http://localhost:8080/comp713-a3/api/",
+  "checks": [
+    {
+      "name": "01 Payara health and real database",
+      "status": "PASS",
+      "durationMs": 556,
+      "response": {
+        "data": {
+          "status": "ok",
+          "database": "ok",
+          "application": "comp713-a3"
+        }
+      }
+    },
+    {
+      "name": "02 Unauthorized and invalid credentials",
+      "status": "PASS",
+      "durationMs": 608
+    },
+    {
+      "name": "03 Coordinator and two worker sessions",
+      "status": "PASS",
+      "durationMs": 1120
+    },
+    {
+      "name": "04 Role enforcement",
+      "status": "PASS",
+      "durationMs": 334
+    },
+    {
+      "name": "05 Retained project CRUD and validation",
+      "status": "PASS",
+      "durationMs": 2147
+    },
+    {
+      "name": "06 Assignment visible to correct worker",
+      "status": "PASS",
+      "durationMs": 2531
+    },
+    {
+      "name": "07 Worker accepts; stale version gives 409",
+      "status": "PASS",
+      "durationMs": 1269
+    },
+    {
+      "name": "08 Invalid location rolls back and malformed JSON rejected",
+      "status": "PASS",
+      "durationMs": 1568
+    },
+    {
+      "name": "09 Real WebSocket push on worker submission",
+      "status": "PASS",
+      "durationMs": 1029,
+      "event": "task.changed",
+      "latencyMs": 597.2573999999986
+    },
+    {
+      "name": "10 Coordinator requests rework; worker sees it",
+      "status": "PASS",
+      "durationMs": 1162
+    },
+    {
+      "name": "11 Resubmit and coordinator approval",
+      "status": "PASS",
+      "durationMs": 1242
+    },
+    {
+      "name": "12 WebSocket reconnection restores authoritative state",
+      "status": "PASS",
+      "durationMs": 860
+    },
+    {
+      "name": "13 Durable outbox published to OpenMQ",
+      "status": "PASS",
+      "durationMs": 609,
+      "events": [
+        {
+          "eventId": "cf07dafe-6715-404c-a6e6-9e1abb3284d3",
+          "published": true
+        },
+        {
+          "eventId": "c6ddbade-c179-49a2-877c-4cb3a53af979",
+          "published": true
+        }
+      ]
+    },
+    {
+      "name": "14 Representative API response time",
+      "status": "FAIL",
+      "error": "Error: GET tasks/2: expected 200, got 503: <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\"><html xmlns=\"http://www.w3.org/1999/xhtml\"><head><title>Payara Server 6.2025.10 - Error report</title><style type=\"text/css\"><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 503 - Service Unavailable</h1><hr/><p><b>type</b> Status report</p><p><b>message</b>Service Unavailable</p><p><b>description</b>The requested service is not currently available.</p><hr/><h3>Payara Server 6.2025.10</h3></body></html>\n    at request (file:///C:/Users/zsr20/Study/2026/Semester%202/Distributed%20and%20Mobile%20System/Assessment3/scripts/test-live.mjs:6:422)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async file:///C:/Users/zsr20/Study/2026/Semester%202/Distributed%20and%20Mobile%20System/Assessment3/scripts/test-live.mjs:24:156\n    at async check (file:///C:/Users/zsr20/Study/2026/Semester%202/Distributed%20and%20Mobile%20System/Assessment3/scripts/test-live.mjs:7:78)\n    at async file:///C:/Users/zsr20/Study/2026/Semester%202/Distributed%20and%20Mobile%20System/Assessment3/scripts/test-live.mjs:24:1"
+    }
+  ],
+  "status": "FAIL"
+}

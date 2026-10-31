@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>nz.ac.aut.comp713</groupId>
+  <artifactId>task-notification-consumer</artifactId>
+  <version>3.0.0</version>
+  <name>Independent task notification consumer</name>
+  <properties>
+    <maven.compiler.release>17</maven.compiler.release>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <!-- Override with -Dpayara.home=C:/Tools/payara6 on another machine. -->
+    <payara.home>${project.basedir}/../../.work/tools/payara6</payara.home>
+  </properties>
+  <dependencies>
+    <!-- Use exactly the Jakarta Messaging client shipped with the selected Payara. -->
+    <dependency>
+      <groupId>local.payara.openmq</groupId><artifactId>imq-client</artifactId><version>6.2025.10</version>
+      <scope>system</scope><systemPath>${payara.home}/mq/lib/imq.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>local.payara.openmq</groupId><artifactId>jakarta-jms-api</artifactId><version>6.2025.10</version>
+      <scope>system</scope><systemPath>${payara.home}/mq/lib/jms.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>com.h2database</groupId><artifactId>h2</artifactId><version>2.3.232</version>
+    </dependency>
+    <dependency>
+      <groupId>org.eclipse.parsson</groupId><artifactId>parsson</artifactId><version>1.1.7</version>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId><artifactId>junit-jupiter</artifactId><version>5.11.4</version><scope>test</scope>
+    </dependency>
+  </dependencies>
+  <build>
+    <finalName>task-notification-consumer</finalName>
+    <plugins>
+      <plugin><groupId>org.apache.maven.plugins</groupId><artifactId>maven-compiler-plugin</artifactId><version>3.13.0</version></plugin>
+      <plugin><groupId>org.apache.maven.plugins</groupId><artifactId>maven-surefire-plugin</artifactId><version>3.5.2</version></plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId><artifactId>maven-jar-plugin</artifactId><version>3.4.2</version>
+        <configuration><archive><manifest><mainClass>nz.ac.aut.comp713.consumer.NotificationConsumer</mainClass></manifest></archive></configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId><artifactId>maven-dependency-plugin</artifactId><version>3.7.0</version>
+        <executions><execution><id>runtime-libraries</id><phase>package</phase><goals><goal>copy-dependencies</goal></goals>
+          <configuration><includeScope>runtime</includeScope><outputDirectory>${project.build.directory}/lib</outputDirectory></configuration>
+        </execution></executions>
+      </plugin>
+    </plugins>
+  </build>
+</project>
