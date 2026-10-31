@@ -1,4 +1,8 @@
 Fieldwork Assessment 3 / 3.0.0
-Final local tag: assessment3-local-v3.0.0
-Public repository: not published
-Initial implementation commit: f9ab1ec54be78a1695f5f17721a26c235998e415
+Public repository: https://github.com/SaltedFishInATank/COMP713-Assignment3-ShiruiZang
+Audited runtime/source snapshot: 308b91a02664e4e4c088537cf2e0c8f4af777d3c
+Submission notes: documentation reconciled after runtime evidence
+Original local label: assessment3-local-v3.0.0 (not the published Git history)
+Student: Shirui Zang | ID: 21136179
+Separate demonstration: 10:25 silent subtitled MP4
+Solo approval / three-week progress history: not established
