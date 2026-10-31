@@ -6,7 +6,7 @@ Fieldwork extends Shirui Zang's Assessment2 Project and Task Manager into a shar
 
 **Submission status and exact verified results:** see [docs/verification-status.md](docs/verification-status.md) and `evidence/`. Build, IDE deployment, host HTTP tests, browser tests and Android device tests establish different facts. A demonstration script is provided; a narrated video has not been recorded. The brief specifies2–3members and3weeks of development history; this is the requested solo implementation and cannot establish those requirements in one session. The individual report is explicitly a preparation draft for the student's independently written report.
 
-Repository: **not published / no public GitHub URL supplied**. Final source version: local tag `assessment3-local-v3.0.0` (see `VERSION.txt` and the supplied local history). Do not submit an invented repository link. Publish the reviewable source to your chosen GitHub repository and update this line before submission. Assessment2 history is not Assessment3 development history.
+Repository: (https://github.com/SaltedFishInATank/COMP713-Assignment3-ShiruiZang). Final source version: local tag `assessment3-local-v3.0.0` (see `VERSION.txt` and the supplied local history). Do not submit an invented repository link. Publish the reviewable source to your chosen GitHub repository and update this line before submission. Assessment2 history is not Assessment3 development history.
 
 ## Layout
 
