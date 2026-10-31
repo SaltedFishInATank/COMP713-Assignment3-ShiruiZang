@@ -1,6 +1,6 @@
 # Final verification status
 
-Shirui Zang, 21136179 · COMP713 Assessment3 ·31October2026 Pacific/Auckland. This records actual execution, distinct from setup instructions. Final source tag: `assessment3-local-v3.0.0`; local snapshot only, no public repository has been published.
+Shirui Zang, 21136179 · COMP713 Assessment3 ·31October2026 Pacific/Auckland. This records actual execution, distinct from setup instructions. Original local label: `assessment3-local-v3.0.0`; published GitHub source snapshot `308b91a02664e4e4c088537cf2e0c8f4af777d3c` at https://github.com/SaltedFishInATank/COMP713-Assignment3-ShiruiZang. Documentation was subsequently corrected.
 
 | Area | Observed result | Evidence |
 |---|---|---|
@@ -23,11 +23,16 @@ The exact runtime-tested Android APK is preserved separately in android/evidence
 
 ## Honest limits and outstanding submission steps
 
-- Record a genuine narrated demonstration of<=12minutes, showing VSCode/Payara Tools and both clients, including startup, live updates, broker retry and evidence. A script and real screenshots are supplied; no completed narrated video is claimed.
-- Publish to an appropriate publicly accessible GitHub repository, put its real URL and final tag/hash in root README, and verify marker access. The source is currently local; assistant-created commits use actual timestamps and explicitly AI-assisted authorship.
+- The separate silent subtitled video exists. The final submitted copy is approximately 10:25 (625.23 s), with burned-in English captions and no audio track. It was retimed from an accelerated 5:12 cut. It shows the recorded project workflow, deployment, recovery, broker and test evidence. See docs/demo-video-verification.md.
+- The public GitHub repository is available at https://github.com/SaltedFishInATank/COMP713-Assignment3-ShiruiZang. Source/runtime snapshot reference: `308b91a02664e4e4c088537cf2e0c8f4af777d3c`. The marker uses the submitted code ZIP; documentation-only revisions follow the runtime snapshot.
 - The official brief asks for2–3members. This is the requested solo project; obtain course approval rather than inventing team members.
 - The official three-week A3commit history is not met. Both working checkpoints are genuine and occur today; they cannot establish earlier development. A2history does not count as A3history.
-- The individual PDF is prominently a preparation DRAFT; the student's personal contribution/reflection must be reviewed and independently written. The system technical report describes actual code and evidence, not fictional student actions.
+- The individual report is an evidence-based student-review draft. The student must independently write and verify personal reflection/contribution before submission, with accurate disclosure of Codex assistance.
 - Local demonstration HTTP/accounts, a single file-backed H2owner, no production auth hardening/rate limit, physical-device behavior and some mobile offline/expiry/timeout edge cases remain limitations documented in README and Android README. These do not negate the executed emulator/shared-workflow checks.
 
 Initial failed test attempts are retained with reasons: redeployment interference; the original H2response-time failure; a browser offline-emulation test that did not close its existing WebSocket; and an early post-restart404before the application finished loading. Passing evidence is linked separately so those failures are not silently rewritten as passes.
+
+
+## Corrected demonstration and submission packaging
+
+The accelerated 5:12 silent/subtitled edit has been retimed to a 10:25 video by restoring video timestamps and removing the near-silent audio stream. The original, separately documented synthetic-narration version is not the final file. Reported p95 values 39.31 ms (archived test) and 33.64 ms (later demo session) describe separate runs. The source-code ZIP excludes the separate video and PDF reports. Solo-group approval and three weeks of Assessment 3 commits are not established.
